@@ -11,6 +11,10 @@ The following image shows the Key20 door lock controller device and the Key20 ap
 
 ![Key 2.0 Door Lock Controller and App](/images/key20_app_and_door_lock_controller.jpg)
 
+You can get a quick impression on how Key20 works watching the following video:
+
+[Key 2.0 Video](https://youtu.be/0vUUZOasrV8)
+
 The main features of Key20 are:
 
 * Using state-of-the-art security mechanisms (Elliptic Curve Diffie-Hellman Key Exchange (ECDH), HMAC) to protect against attacks. 

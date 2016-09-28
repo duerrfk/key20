@@ -1,0 +1,2333 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+                              /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o (exit)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+                              /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+                              /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_init_array)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+                              /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o (memset)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+                              /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o) (_exit)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a(_udivsi3.o)
+                              /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o (__aeabi_uidiv)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a(_divsi3.o)
+                              /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o (__aeabi_idiv)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a(_dvmd_tls.o)
+                              /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy-stub.o)
+                              key20.o (memcpy)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sprintf.o)
+                              key20.o (sprintf)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strlen.o)
+                              key20.o (strlen)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o)
+                              /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sprintf.o) (_svfprintf_r)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                              /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o) (_printf_i)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memchr-stub.o)
+                              /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o) (memchr)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memmove.o)
+                              /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o) (memmove)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-freer.o)
+                              /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o) (_free_r)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-mallocr.o)
+                              /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o) (_malloc_r)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-reallocr.o)
+                              /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o) (_realloc_r)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sbrkr.o)
+                              /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-msizer.o)
+                              /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-reent.o)
+                              /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sbrkr.o) (errno)
+/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(sbrk.o)
+                              /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sbrkr.o) (_sbrk)
+
+Allocating common symbols
+Common symbol       size              file
+
+errno               0x4               /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-reent.o)
+char_handle_nonce   0x8               key20.o
+app_event_queue     0x20              key20.o
+keyexchange_server_public_key
+                    0x20              key20.o
+keyexchange_shared_secret
+                    0x20              key20.o
+char_handle_unlock  0x8               key20.o
+uuid_type           0x1               key20.o
+app_state           0x1               key20.o
+pstore_handle       0x8               key20.o
+nonce               0x10              key20.o
+char_handle_cfg_in  0x8               key20.o
+keyexchange_client_public_key
+                    0x20              key20.o
+unlock_hmac_client  0x20              key20.o
+service_handle      0x2               key20.o
+char_handle_cfg_out
+                    0x8               key20.o
+keys                0x80              key20.o
+keyexchange_server_secret_key
+                    0x20              key20.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crti.o
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crti.o
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crti.o
+ .data          0x00000000        0x4 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.extab     0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+ .text          0x00000000        0x0 key20.o
+ .data          0x00000000        0x0 key20.o
+ .bss           0x00000000        0x0 key20.o
+ .text.sd_ble_gap_adv_data_set
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gap_adv_stop
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gap_conn_param_update
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gap_tx_power_set
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gap_appearance_set
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gap_appearance_get
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gap_ppcp_get
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gap_device_name_get
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gap_authenticate
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gap_auth_key_reply
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gap_encrypt
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gap_sec_info_reply
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gap_conn_sec_get
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gap_rssi_start
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gap_rssi_stop
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gap_rssi_get
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gap_scan_start
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gap_scan_stop
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gap_connect
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gap_connect_cancel
+                0x00000000        0x8 key20.o
+ .text.sd_ble_l2cap_cid_register
+                0x00000000        0x8 key20.o
+ .text.sd_ble_l2cap_cid_unregister
+                0x00000000        0x8 key20.o
+ .text.sd_ble_l2cap_tx
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gattc_primary_services_discover
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gattc_relationships_discover
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gattc_characteristics_discover
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gattc_descriptors_discover
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gattc_char_value_by_uuid_read
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gattc_read
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gattc_char_values_read
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gattc_write
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gattc_hv_confirm
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gatts_include_add
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gatts_descriptor_add
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gatts_value_set
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gatts_value_get
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gatts_service_changed
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gatts_rw_authorize_reply
+                0x00000000        0x8 key20.o
+ .text.sd_ble_gatts_sys_attr_get
+                0x00000000        0x8 key20.o
+ .text.sd_ble_evt_get
+                0x00000000        0x8 key20.o
+ .text.sd_ble_tx_buffer_count_get
+                0x00000000        0x8 key20.o
+ .text.sd_ble_uuid_decode
+                0x00000000        0x8 key20.o
+ .text.sd_ble_uuid_encode
+                0x00000000        0x8 key20.o
+ .text.sd_ble_version_get
+                0x00000000        0x8 key20.o
+ .text.sd_ble_user_mem_reply
+                0x00000000        0x8 key20.o
+ .text.sd_ble_opt_set
+                0x00000000        0x8 key20.o
+ .text.sd_ble_opt_get
+                0x00000000        0x8 key20.o
+ .text.sd_mutex_new
+                0x00000000        0x8 key20.o
+ .text.sd_mutex_acquire
+                0x00000000        0x8 key20.o
+ .text.sd_mutex_release
+                0x00000000        0x8 key20.o
+ .text.sd_nvic_EnableIRQ
+                0x00000000        0x8 key20.o
+ .text.sd_nvic_DisableIRQ
+                0x00000000        0x8 key20.o
+ .text.sd_nvic_GetPendingIRQ
+                0x00000000        0x8 key20.o
+ .text.sd_nvic_SetPendingIRQ
+                0x00000000        0x8 key20.o
+ .text.sd_nvic_ClearPendingIRQ
+                0x00000000        0x8 key20.o
+ .text.sd_nvic_SetPriority
+                0x00000000        0x8 key20.o
+ .text.sd_nvic_GetPriority
+                0x00000000        0x8 key20.o
+ .text.sd_nvic_critical_region_enter
+                0x00000000        0x8 key20.o
+ .text.sd_nvic_critical_region_exit
+                0x00000000        0x8 key20.o
+ .text.sd_rand_application_pool_capacity_get
+                0x00000000        0x8 key20.o
+ .text.sd_power_reset_reason_get
+                0x00000000        0x8 key20.o
+ .text.sd_power_reset_reason_clr
+                0x00000000        0x8 key20.o
+ .text.sd_power_mode_set
+                0x00000000        0x8 key20.o
+ .text.sd_power_system_off
+                0x00000000        0x8 key20.o
+ .text.sd_power_pof_enable
+                0x00000000        0x8 key20.o
+ .text.sd_power_pof_threshold_set
+                0x00000000        0x8 key20.o
+ .text.sd_power_ramon_set
+                0x00000000        0x8 key20.o
+ .text.sd_power_ramon_clr
+                0x00000000        0x8 key20.o
+ .text.sd_power_ramon_get
+                0x00000000        0x8 key20.o
+ .text.sd_power_gpregret_set
+                0x00000000        0x8 key20.o
+ .text.sd_power_gpregret_clr
+                0x00000000        0x8 key20.o
+ .text.sd_power_gpregret_get
+                0x00000000        0x8 key20.o
+ .text.sd_power_dcdc_mode_set
+                0x00000000        0x8 key20.o
+ .text.sd_clock_hfclk_request
+                0x00000000        0x8 key20.o
+ .text.sd_clock_hfclk_release
+                0x00000000        0x8 key20.o
+ .text.sd_clock_hfclk_is_running
+                0x00000000        0x8 key20.o
+ .text.sd_ppi_channel_enable_get
+                0x00000000        0x8 key20.o
+ .text.sd_ppi_channel_enable_set
+                0x00000000        0x8 key20.o
+ .text.sd_ppi_channel_enable_clr
+                0x00000000        0x8 key20.o
+ .text.sd_ppi_channel_assign
+                0x00000000        0x8 key20.o
+ .text.sd_ppi_group_task_enable
+                0x00000000        0x8 key20.o
+ .text.sd_ppi_group_task_disable
+                0x00000000        0x8 key20.o
+ .text.sd_ppi_group_assign
+                0x00000000        0x8 key20.o
+ .text.sd_ppi_group_get
+                0x00000000        0x8 key20.o
+ .text.sd_radio_notification_cfg_set
+                0x00000000        0x8 key20.o
+ .text.sd_ecb_block_encrypt
+                0x00000000        0x8 key20.o
+ .text.sd_evt_get
+                0x00000000        0x8 key20.o
+ .text.sd_temp_get
+                0x00000000        0x8 key20.o
+ .text.sd_flash_write
+                0x00000000        0x8 key20.o
+ .text.sd_flash_page_erase
+                0x00000000        0x8 key20.o
+ .text.sd_flash_protect
+                0x00000000        0x8 key20.o
+ .text.sd_radio_session_open
+                0x00000000        0x8 key20.o
+ .text.sd_radio_session_close
+                0x00000000        0x8 key20.o
+ .text.sd_radio_request
+                0x00000000        0x8 key20.o
+ .text.sd_softdevice_enable
+                0x00000000        0x8 key20.o
+ .text.sd_softdevice_disable
+                0x00000000        0x8 key20.o
+ .text.sd_softdevice_is_enabled
+                0x00000000        0x8 key20.o
+ .text.sd_softdevice_vector_table_base_set
+                0x00000000        0x8 key20.o
+ .text.led_on   0x00000000       0x10 key20.o
+ .text.display_off
+                0x00000000       0x1c key20.o
+ .text          0x00000000        0x0 app_event_queue.o
+ .data          0x00000000        0x0 app_event_queue.o
+ .bss           0x00000000        0x0 app_event_queue.o
+ .text          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/toolchain/system_nrf51.o
+ .data          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/toolchain/system_nrf51.o
+ .bss           0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/toolchain/system_nrf51.o
+ .data.SystemCoreClock
+                0x00000000        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/toolchain/system_nrf51.o
+ .text.SystemCoreClockUpdate
+                0x00000000       0x18 /home/duerrfk/local/nRF51_SDK_10.0.0/components/toolchain/system_nrf51.o
+ .text          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/delay/nrf_delay.o
+ .data          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/delay/nrf_delay.o
+ .bss           0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/delay/nrf_delay.o
+ .text          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .data          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .bss           0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_mutex_new
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_mutex_acquire
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_mutex_release
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_nvic_DisableIRQ
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_nvic_GetPendingIRQ
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_nvic_SetPendingIRQ
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_nvic_ClearPendingIRQ
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_nvic_SetPriority
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_nvic_GetPriority
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_nvic_SystemReset
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_nvic_critical_region_enter
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_nvic_critical_region_exit
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_rand_application_pool_capacity_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_rand_application_bytes_available_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_rand_application_vector_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_power_reset_reason_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_power_reset_reason_clr
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_power_mode_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_power_system_off
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_power_pof_enable
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_power_pof_threshold_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_power_ramon_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_power_ramon_clr
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_power_ramon_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_power_gpregret_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_power_gpregret_clr
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_power_gpregret_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_power_dcdc_mode_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_clock_hfclk_request
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_clock_hfclk_release
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_clock_hfclk_is_running
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_app_evt_wait
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ppi_channel_enable_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ppi_channel_enable_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ppi_channel_enable_clr
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ppi_channel_assign
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ppi_group_task_enable
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ppi_group_task_disable
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ppi_group_assign
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ppi_group_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_radio_notification_cfg_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ecb_block_encrypt
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_temp_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_flash_write
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_flash_page_erase
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_flash_protect
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_radio_session_open
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_radio_session_close
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_radio_request
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_softdevice_disable
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_softdevice_is_enabled
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_softdevice_vector_table_base_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_address_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_address_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_adv_data_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_adv_start
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_adv_stop
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_conn_param_update
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_disconnect
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_tx_power_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_appearance_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_appearance_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_ppcp_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_ppcp_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_device_name_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_device_name_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_authenticate
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_sec_params_reply
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_auth_key_reply
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_encrypt
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_sec_info_reply
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_conn_sec_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_rssi_start
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_rssi_stop
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_rssi_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_scan_start
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_scan_stop
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_connect
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gap_connect_cancel
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_l2cap_cid_register
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_l2cap_cid_unregister
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_l2cap_tx
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gattc_primary_services_discover
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gattc_relationships_discover
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gattc_characteristics_discover
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gattc_descriptors_discover
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gattc_char_value_by_uuid_read
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gattc_read
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gattc_char_values_read
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gattc_write
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gattc_hv_confirm
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gatts_service_add
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gatts_include_add
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gatts_characteristic_add
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gatts_descriptor_add
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gatts_value_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gatts_value_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gatts_hvx
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gatts_service_changed
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gatts_rw_authorize_reply
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gatts_sys_attr_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_gatts_sys_attr_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_enable
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_tx_buffer_count_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_uuid_vs_add
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_uuid_decode
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_uuid_encode
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_version_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_user_mem_reply
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_opt_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_opt_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.softdevice_handler_isEnabled
+                0x00000000       0x14 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.softdevice_handler_sd_disable
+                0x00000000       0x28 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/util/app_error.o
+ .data          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/util/app_error.o
+ .bss           0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/util/app_error.o
+ .text          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .data          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .bss           0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_address_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_adv_start
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_adv_stop
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_conn_param_update
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_disconnect
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_tx_power_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_appearance_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_ppcp_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_ppcp_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_device_name_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_authenticate
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_sec_params_reply
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_auth_key_reply
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_encrypt
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_sec_info_reply
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_conn_sec_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_rssi_start
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_rssi_stop
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_rssi_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_scan_start
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_scan_stop
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_connect
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_connect_cancel
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_l2cap_cid_register
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_l2cap_cid_unregister
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_l2cap_tx
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gattc_primary_services_discover
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gattc_relationships_discover
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gattc_characteristics_discover
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gattc_descriptors_discover
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gattc_char_value_by_uuid_read
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gattc_read
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gattc_char_values_read
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gattc_write
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gattc_hv_confirm
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gatts_service_add
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gatts_include_add
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gatts_characteristic_add
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gatts_descriptor_add
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gatts_value_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gatts_value_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gatts_hvx
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gatts_service_changed
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gatts_rw_authorize_reply
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gatts_sys_attr_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gatts_sys_attr_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_enable
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_evt_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_tx_buffer_count_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_uuid_vs_add
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_uuid_decode
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_version_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_user_mem_reply
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_opt_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_opt_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/button/app_button.o
+ .data          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/button/app_button.o
+ .bss           0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/button/app_button.o
+ .text.app_button_disable
+                0x00000000       0x50 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/button/app_button.o
+ .text.app_button_is_pushed
+                0x00000000       0x5c /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/button/app_button.o
+ .text          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .data          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .bss           0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_mutex_new
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_mutex_acquire
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_mutex_release
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_nvic_EnableIRQ
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_nvic_DisableIRQ
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_nvic_GetPendingIRQ
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_nvic_SetPendingIRQ
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_nvic_ClearPendingIRQ
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_nvic_SetPriority
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_nvic_GetPriority
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_nvic_SystemReset
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_nvic_critical_region_enter
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_nvic_critical_region_exit
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_rand_application_pool_capacity_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_rand_application_bytes_available_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_rand_application_vector_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_power_reset_reason_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_power_reset_reason_clr
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_power_mode_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_power_system_off
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_power_pof_enable
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_power_pof_threshold_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_power_ramon_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_power_ramon_clr
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_power_ramon_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_power_gpregret_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_power_gpregret_clr
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_power_gpregret_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_power_dcdc_mode_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_clock_hfclk_request
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_clock_hfclk_release
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_clock_hfclk_is_running
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_app_evt_wait
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_ppi_channel_enable_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_ppi_channel_enable_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_ppi_channel_enable_clr
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_ppi_channel_assign
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_ppi_group_task_enable
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_ppi_group_task_disable
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_ppi_group_assign
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_ppi_group_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_radio_notification_cfg_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_ecb_block_encrypt
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_evt_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_temp_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_flash_write
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_flash_page_erase
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_flash_protect
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_radio_session_open
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_radio_session_close
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.sd_radio_request
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.timer_stop_all_op_schedule
+                0x00000000       0x64 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.app_timer_stop_all
+                0x00000000       0x28 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.app_timer_cnt_get
+                0x00000000       0x1c /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.app_timer_cnt_diff_compute
+                0x00000000       0x28 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .data          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .bss           0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpiote_task_set
+                0x00000000       0x28 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpiote_task_addr_get
+                0x00000000       0x24 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpiote_int_disable
+                0x00000000       0x20 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpiote_event_disable
+                0x00000000       0x34 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpiote_task_enable
+                0x00000000       0x50 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpiote_task_disable
+                0x00000000       0x34 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpiote_task_configure
+                0x00000000       0x88 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpiote_task_force
+                0x00000000       0x4c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpiote_te_default
+                0x00000000       0x24 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpio_cfg_output
+                0x00000000       0x24 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpio_cfg_default
+                0x00000000       0x24 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpio_pin_set
+                0x00000000       0x20 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpio_pin_clear
+                0x00000000       0x24 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpio_pin_toggle
+                0x00000000       0x54 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.pin_in_use
+                0x00000000       0x2c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.pin_in_use_as_non_task_out
+                0x00000000       0x2c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.pin_in_use_set
+                0x00000000       0x24 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_uninit
+                0x00000000       0x58 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_init
+                0x00000000       0xa0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_uninit
+                0x00000000       0x50 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_set
+                0x00000000       0x18 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_clear
+                0x00000000       0x18 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_toggle
+                0x00000000       0x18 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_task_enable
+                0x00000000       0x28 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_task_disable
+                0x00000000       0x28 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_task_addr_get
+                0x00000000       0x34 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_task_force
+                0x00000000       0x48 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_out_task_trigger
+                0x00000000       0x30 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_in_event_disable
+                0x00000000       0x58 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_in_uninit
+                0x00000000       0x58 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_in_event_addr_get
+                0x00000000       0x38 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/common/nrf_drv_common.o
+ .data          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/common/nrf_drv_common.o
+ .bss           0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/common/nrf_drv_common.o
+ .text          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .data          0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .bss           0x00000000        0x0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_mutex_new
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_mutex_acquire
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_mutex_release
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_nvic_EnableIRQ
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_nvic_DisableIRQ
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_nvic_GetPendingIRQ
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_nvic_SetPendingIRQ
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_nvic_ClearPendingIRQ
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_nvic_SetPriority
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_nvic_GetPriority
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_nvic_SystemReset
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_nvic_critical_region_enter
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_nvic_critical_region_exit
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_rand_application_pool_capacity_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_rand_application_bytes_available_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_rand_application_vector_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_power_reset_reason_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_power_reset_reason_clr
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_power_mode_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_power_system_off
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_power_pof_enable
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_power_pof_threshold_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_power_ramon_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_power_ramon_clr
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_power_ramon_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_power_gpregret_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_power_gpregret_clr
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_power_gpregret_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_power_dcdc_mode_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_clock_hfclk_request
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_clock_hfclk_release
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_clock_hfclk_is_running
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_app_evt_wait
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_ppi_channel_enable_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_ppi_channel_enable_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_ppi_channel_enable_clr
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_ppi_channel_assign
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_ppi_group_task_enable
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_ppi_group_task_disable
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_ppi_group_assign
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_ppi_group_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_radio_notification_cfg_set
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_ecb_block_encrypt
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_evt_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_temp_get
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_flash_protect
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_radio_session_open
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_radio_session_close
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_radio_request
+                0x00000000        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.pstorage_block_identifier_get
+                0x00000000       0xfc /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.pstorage_access_status_get
+                0x00000000       0x3c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text          0x00000000        0x0 ../curve25519-cortexm0/scalarmult.o
+ .data          0x00000000        0x0 ../curve25519-cortexm0/scalarmult.o
+ .bss           0x00000000        0x0 ../curve25519-cortexm0/scalarmult.o
+ .text          0x00000000        0x0 ../avrnacl/crypto_hash/sha512.o
+ .data          0x00000000        0x0 ../avrnacl/crypto_hash/sha512.o
+ .bss           0x00000000        0x0 ../avrnacl/crypto_hash/sha512.o
+ .text          0x00000000        0x0 ../avrnacl/crypto_hashblocks/sha512.o
+ .data          0x00000000        0x0 ../avrnacl/crypto_hashblocks/sha512.o
+ .bss           0x00000000        0x0 ../avrnacl/crypto_hashblocks/sha512.o
+ .text          0x00000000        0x0 ../avrnacl/crypto_auth/hmac.o
+ .data          0x00000000        0x0 ../avrnacl/crypto_auth/hmac.o
+ .bss           0x00000000        0x0 ../avrnacl/crypto_auth/hmac.o
+ .text          0x00000000        0x0 ../avrnacl/crypto_verify/verify.o
+ .data          0x00000000        0x0 ../avrnacl/crypto_verify/verify.o
+ .bss           0x00000000        0x0 ../avrnacl/crypto_verify/verify.o
+ .text.crypto_verify_16
+                0x00000000       0x20 ../avrnacl/crypto_verify/verify.o
+ .text          0x00000000        0x0 ../avrnacl/shared/consts.o
+ .data          0x00000000        0x0 ../avrnacl/shared/consts.o
+ .bss           0x00000000        0x0 ../avrnacl/shared/consts.o
+ .text          0x00000000        0x0 ../avrnacl/shared/bigint.o
+ .data          0x00000000        0x0 ../avrnacl/shared/bigint.o
+ .bss           0x00000000        0x0 ../avrnacl/shared/bigint.o
+ .text.avrnacl_bigint_sub
+                0x00000000       0x80 ../avrnacl/shared/bigint.o
+ .text.avrnacl_bigint_mul
+                0x00000000       0xd0 ../avrnacl/shared/bigint.o
+ .text.bigint_mul16c
+                0x00000000      0x168 ../avrnacl/shared/bigint.o
+ .text.bigint_mul16
+                0x00000000      0x134 ../avrnacl/shared/bigint.o
+ .text.avrnacl_bigint_mul32
+                0x00000000      0x13c ../avrnacl/shared/bigint.o
+ .text.avrnacl_bigint_cmov
+                0x00000000       0x78 ../avrnacl/shared/bigint.o
+ .text          0x00000000        0x0 ../hd44780nrf51/hd44780nrf51.o
+ .data          0x00000000        0x0 ../hd44780nrf51/hd44780nrf51.o
+ .bss           0x00000000        0x0 ../hd44780nrf51/hd44780nrf51.o
+ .text.hd44780_clear_line
+                0x00000000       0x6c ../hd44780nrf51/hd44780nrf51.o
+ .data          0x00000000        0x0 gcc_startup_nrf51_aa.o
+ .bss           0x00000000        0x0 gcc_startup_nrf51_aa.o
+ .ARM.extab     0x00000000        0x0 gcc_startup_nrf51_aa.o
+ .data          0x00000000        0x0 ../curve25519-cortexm0/cortex_m0_mpy121666.o
+ .bss           0x00000000        0x0 ../curve25519-cortexm0/cortex_m0_mpy121666.o
+ .data          0x00000000        0x0 ../curve25519-cortexm0/cortex_m0_reduce25519.o
+ .bss           0x00000000        0x0 ../curve25519-cortexm0/cortex_m0_reduce25519.o
+ .data          0x00000000        0x0 ../curve25519-cortexm0/mul.o
+ .bss           0x00000000        0x0 ../curve25519-cortexm0/mul.o
+ .data          0x00000000        0x0 ../curve25519-cortexm0/sqr.o
+ .bss           0x00000000        0x0 ../curve25519-cortexm0/sqr.o
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sprintf.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sprintf.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sprintf.o)
+ .text._sprintf_r
+                0x00000000       0x40 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sprintf.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o)
+ .text.__ssprint_r
+                0x00000000      0x100 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o)
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memchr-stub.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memchr-stub.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memchr-stub.o)
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memmove.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memmove.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memmove.o)
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-freer.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-freer.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-freer.o)
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-mallocr.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-mallocr.o)
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-reallocr.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-reallocr.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-reallocr.o)
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sbrkr.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sbrkr.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sbrkr.o)
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-msizer.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-msizer.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-msizer.o)
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-reent.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-reent.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x00000000       0x1a /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xcc /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-reent.o)
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtend.o
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtend.o
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtend.o
+ .eh_frame      0x00000000        0x4 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtend.o
+ .jcr           0x00000000        0x4 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtend.o
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtn.o
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtn.o
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtn.o
+ .text          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(sbrk.o)
+ .data          0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(sbrk.o)
+ .bss           0x00000000        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(sbrk.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00018000         0x00028000         xr
+RAM              0x20002000         0x00002000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crti.o
+LOAD /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+LOAD /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+LOAD /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a
+LOAD /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a
+LOAD key20.o
+LOAD app_event_queue.o
+LOAD /home/duerrfk/local/nRF51_SDK_10.0.0/components/toolchain/system_nrf51.o
+LOAD /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/delay/nrf_delay.o
+LOAD /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+LOAD /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/util/app_error.o
+LOAD /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+LOAD /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/button/app_button.o
+LOAD /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+LOAD /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+LOAD /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/common/nrf_drv_common.o
+LOAD /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+LOAD ../curve25519-cortexm0/scalarmult.o
+LOAD ../avrnacl/crypto_hash/sha512.o
+LOAD ../avrnacl/crypto_hashblocks/sha512.o
+LOAD ../avrnacl/crypto_auth/hmac.o
+LOAD ../avrnacl/crypto_verify/verify.o
+LOAD ../avrnacl/shared/consts.o
+LOAD ../avrnacl/shared/bigint.o
+LOAD ../hd44780nrf51/hd44780nrf51.o
+LOAD gcc_startup_nrf51_aa.o
+LOAD ../curve25519-cortexm0/cortex_m0_mpy121666.o
+LOAD ../curve25519-cortexm0/cortex_m0_reduce25519.o
+LOAD ../curve25519-cortexm0/mul.o
+LOAD ../curve25519-cortexm0/sqr.o
+START GROUP
+LOAD /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a
+LOAD /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a
+END GROUP
+START GROUP
+LOAD /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a
+LOAD /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a
+END GROUP
+LOAD /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtend.o
+LOAD /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtn.o
+START GROUP
+LOAD /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a
+LOAD /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc.a
+LOAD /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a
+END GROUP
+
+.fs_data_out    0x00000000        0x0
+                [!provide]                PROVIDE (__start_fs_data, .)
+ *(fs_data)
+                [!provide]                PROVIDE (__stop_fs_data, .)
+
+.text           0x00018000     0xc4ac
+ *(.Vectors)
+ .Vectors       0x00018000       0xc0 gcc_startup_nrf51_aa.o
+                0x00018000                __Vectors
+ *(.text*)
+ .text          0x000180c0       0xb4 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+ .text          0x00018174       0x78 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+                0x00018174                _mainCRTStartup
+                0x00018174                _start
+ .text.exit     0x000181ec       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+                0x000181ec                exit
+ .text.__libc_init_array
+                0x00018218       0x4c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+                0x00018218                __libc_init_array
+ .text.memset   0x00018264       0x10 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+                0x00018264                memset
+ .text._exit    0x00018274        0x4 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+                0x00018274                _exit
+ .text.nrf_gpio_cfg
+                0x00018278       0x60 key20.o
+ .text.nrf_gpio_cfg_output
+                0x000182d8       0x24 key20.o
+ .text.nrf_gpio_pin_set
+                0x000182fc       0x20 key20.o
+ .text.nrf_gpio_pin_clear
+                0x0001831c       0x24 key20.o
+ .text.sd_ble_gap_address_set
+                0x00018340        0x8 key20.o
+ .text.sd_ble_gap_address_get
+                0x00018348        0x8 key20.o
+ .text.sd_ble_gap_adv_start
+                0x00018350        0x8 key20.o
+ .text.sd_ble_gap_disconnect
+                0x00018358        0x8 key20.o
+ .text.sd_ble_gap_ppcp_set
+                0x00018360        0x8 key20.o
+ .text.sd_ble_gap_device_name_set
+                0x00018368        0x8 key20.o
+ .text.sd_ble_gap_sec_params_reply
+                0x00018370        0x8 key20.o
+ .text.sd_ble_gatts_service_add
+                0x00018378        0x8 key20.o
+ .text.sd_ble_gatts_characteristic_add
+                0x00018380        0x8 key20.o
+ .text.sd_ble_gatts_hvx
+                0x00018388        0x8 key20.o
+ .text.sd_ble_gatts_sys_attr_set
+                0x00018390        0x8 key20.o
+ .text.sd_ble_enable
+                0x00018398        0x8 key20.o
+ .text.sd_ble_uuid_vs_add
+                0x000183a0        0x8 key20.o
+ .text.sd_nvic_SystemReset
+                0x000183a8        0x8 key20.o
+ .text.sd_rand_application_bytes_available_get
+                0x000183b0        0x8 key20.o
+ .text.sd_rand_application_vector_get
+                0x000183b8        0x8 key20.o
+ .text.sd_app_evt_wait
+                0x000183c0        0x8 key20.o
+ .text.led_off  0x000183c8       0x10 key20.o
+ .text.led_init
+                0x000183d8       0x14 key20.o
+ .text.die      0x000183ec       0x20 key20.o
+ .text.lock_init
+                0x0001840c       0x18 key20.o
+ .text.start_advertising
+                0x00018424       0x50 key20.o
+ .text.char_cfg_in_write_evt
+                0x00018474       0x98 key20.o
+ .text.char_unlock_write_evt
+                0x0001850c       0x98 key20.o
+ .text.cccd_cfg_out_write_evt
+                0x000185a4       0x4c key20.o
+ .text.cccd_nonce_write_evt
+                0x000185f0       0x4c key20.o
+ .text.on_sys_evt
+                0x0001863c       0x10 key20.o
+ .text.sys_evt_dispatch
+                0x0001864c       0x20 key20.o
+ .text.nonce_indication_hvc_evt
+                0x0001866c       0x3c key20.o
+ .text.cfg_out_indication_hvc_evt
+                0x000186a8       0x3c key20.o
+ .text.ble_evt_handler
+                0x000186e4       0xd4 key20.o
+ .text.ble_stack_init
+                0x000187b8       0xa4 key20.o
+ .text.gap_init
+                0x0001885c       0x94 key20.o
+ .text.add_characteristic_nonce
+                0x000188f0      0x208 key20.o
+ .text.add_characteristic_unlock
+                0x00018af8      0x1a8 key20.o
+ .text.add_characteristic_cfg_in
+                0x00018ca0      0x1a8 key20.o
+ .text.add_characteristic_cfg_out
+                0x00018e48      0x208 key20.o
+ .text.service_init
+                0x00019050       0x94 key20.o
+ .text.advertising_init
+                0x000190e4       0x64 key20.o
+ .text.lock_action_timer_evt_handler
+                0x00019148       0x2c key20.o
+ .text.auth_timer_evt_handler
+                0x00019174       0x2c key20.o
+ .text.timers_init
+                0x000191a0       0x70 key20.o
+ .text.start_lock_action_timer
+                0x00019210       0x24 key20.o
+ .text.start_auth_timer
+                0x00019234       0x24 key20.o
+ .text.stop_auth_timer
+                0x00019258       0x18 key20.o
+ .text.button_evt_handler
+                0x00019270       0x78 key20.o
+ .text.buttons_init
+                0x000192e8       0x28 key20.o
+ .text.start_button_event_detection
+                0x00019310       0x18 key20.o
+ .text.create_nonce
+                0x00019328       0x74 key20.o
+ .text.ecdh_secret_key
+                0x0001939c       0xb0 key20.o
+ .text.ecdh_public_key
+                0x0001944c       0x20 key20.o
+ .text.ecdh_shared_secret
+                0x0001946c       0x20 key20.o
+ .text.display_init
+                0x0001948c       0x18 key20.o
+ .text.display_on
+                0x000194a4       0x1c key20.o
+ .text.display_text
+                0x000194c0       0x48 key20.o
+ .text.nonce_init
+                0x00019508       0x10 key20.o
+ .text.binary_to_hexstr
+                0x00019518       0x50 key20.o
+ .text.display_shared_secret_hash
+                0x00019568       0x40 key20.o
+ .text.store_key
+                0x000195a8       0x48 key20.o
+ .text.pstore_cb_handler
+                0x000195f0       0x64 key20.o
+ .text.is_key_valid
+                0x00019654       0x40 key20.o
+ .text.load_keys
+                0x00019694      0x100 key20.o
+ .text.format_pstore
+                0x00019794       0xc4 key20.o
+ .text.pstore_init
+                0x00019858       0x90 key20.o
+ .text.indicate_nonce
+                0x000198e8       0x68 key20.o
+ .text.indicate_public_key
+                0x00019950       0xbc key20.o
+ .text.lock_action_start
+                0x00019a0c       0x14 key20.o
+ .text.lock_action_stop
+                0x00019a20       0x10 key20.o
+ .text.check_auth
+                0x00019a30       0x54 key20.o
+ .text.state_transition
+                0x00019a84      0x5e8 key20.o
+ .text.main     0x0001a06c       0xa0 key20.o
+                0x0001a06c                main
+ .text.app_event_queue_init
+                0x0001a10c       0x2c app_event_queue.o
+                0x0001a10c                app_event_queue_init
+ .text.app_event_queue_add
+                0x0001a138       0x54 app_event_queue.o
+                0x0001a138                app_event_queue_add
+ .text.app_event_queue_get
+                0x0001a18c       0x58 app_event_queue.o
+                0x0001a18c                app_event_queue_get
+ .text.SystemInit
+                0x0001a1e4       0x40 /home/duerrfk/local/nRF51_SDK_10.0.0/components/toolchain/system_nrf51.o
+                0x0001a1e4                SystemInit
+ .text.is_manual_peripheral_setup_needed
+                0x0001a224       0x80 /home/duerrfk/local/nRF51_SDK_10.0.0/components/toolchain/system_nrf51.o
+ .text.is_disabled_in_debug_needed
+                0x0001a2a4       0x4c /home/duerrfk/local/nRF51_SDK_10.0.0/components/toolchain/system_nrf51.o
+ .text.nrf_delay_ms
+                0x0001a2f0       0x48 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/delay/nrf_delay.o
+                0x0001a2f0                nrf_delay_ms
+ .text.sd_nvic_EnableIRQ
+                0x0001a338        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_evt_get
+                0x0001a340        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_softdevice_enable
+                0x0001a348        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.is_word_aligned
+                0x0001a350       0x1c /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.sd_ble_evt_get
+                0x0001a36c        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .text.softdevice_assertion_handler
+                0x0001a374       0x2c /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+                0x0001a374                softdevice_assertion_handler
+ .text.intern_softdevice_events_execute
+                0x0001a3a0      0x110 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+                0x0001a3a0                intern_softdevice_events_execute
+ .text.softdevice_handler_init
+                0x0001a4b0       0x8c /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+                0x0001a4b0                softdevice_handler_init
+ .text.softdevice_ble_evt_handler_set
+                0x0001a53c       0x28 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+                0x0001a53c                softdevice_ble_evt_handler_set
+ .text.softdevice_sys_evt_handler_set
+                0x0001a564       0x28 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+                0x0001a564                softdevice_sys_evt_handler_set
+ .text.SWI2_IRQHandler
+                0x0001a58c       0x40 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+                0x0001a58c                SWI2_IRQHandler
+ .text.NVIC_SystemReset
+                0x0001a5cc       0x1c /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/util/app_error.o
+ .text.app_error_handler
+                0x0001a5e8       0x18 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/util/app_error.o
+                0x0001a5e8                app_error_handler
+ .text.sd_ble_gap_address_get
+                0x0001a600        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_adv_data_set
+                0x0001a608        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_appearance_get
+                0x0001a610        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_gap_device_name_get
+                0x0001a618        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sd_ble_uuid_encode
+                0x0001a620        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.uint16_encode
+                0x0001a628       0x34 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.tk_value_encode
+                0x0001a65c       0xb0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.le_role_encode
+                0x0001a70c       0xdc /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.ble_device_addr_encode
+                0x0001a7e8       0xd0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.name_encode
+                0x0001a8b8      0x164 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.appearance_encode
+                0x0001aa1c       0xa0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.flags_encode
+                0x0001aabc       0x8c /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.sec_mgr_oob_flags_encode
+                0x0001ab48       0x8c /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.tx_power_level_encode
+                0x0001abd4       0x8c /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.uuid_list_sized_encode
+                0x0001ac60      0x194 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.uuid_list_encode
+                0x0001adf4       0x80 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.conn_int_check
+                0x0001ae74       0x80 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.conn_int_encode
+                0x0001aef4       0xc8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.manuf_specific_data_encode
+                0x0001afbc       0xe4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.service_data_encode
+                0x0001b0a0      0x118 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.adv_data_encode
+                0x0001b1b8      0x288 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+                0x0001b1b8                adv_data_encode
+ .text.advdata_check
+                0x0001b440       0x24 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.srdata_check
+                0x0001b464       0x20 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .text.ble_advdata_set
+                0x0001b484       0xd8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+                0x0001b484                ble_advdata_set
+ .text.detection_delay_timeout_handler
+                0x0001b55c       0xe4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/button/app_button.o
+ .text.gpiote_event_handler
+                0x0001b640       0xa4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/button/app_button.o
+ .text.app_button_init
+                0x0001b6e4      0x104 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/button/app_button.o
+                0x0001b6e4                app_button_init
+ .text.app_button_enable
+                0x0001b7e8       0x44 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/button/app_button.o
+                0x0001b7e8                app_button_enable
+ .text.is_word_aligned
+                0x0001b82c       0x1c /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.NVIC_EnableIRQ
+                0x0001b848       0x2c /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.NVIC_DisableIRQ
+                0x0001b874       0x30 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.NVIC_SetPendingIRQ
+                0x0001b8a4       0x34 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.NVIC_ClearPendingIRQ
+                0x0001b8d8       0x34 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.NVIC_SetPriority
+                0x0001b90c       0xdc /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.NVIC_GetPriority
+                0x0001b9e8       0x7c /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.current_int_priority_get
+                0x0001ba64       0x3c /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.rtc1_init
+                0x0001baa0       0x28 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.rtc1_start
+                0x0001bac8       0x6c /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.rtc1_stop
+                0x0001bb34       0x98 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.rtc1_counter_get
+                0x0001bbcc       0x18 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.ticks_diff_get
+                0x0001bbe4       0x1c /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.rtc1_compare0_set
+                0x0001bc00       0x20 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.timer_list_insert
+                0x0001bc20       0xb0 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.timer_list_remove
+                0x0001bcd0       0xa4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.timer_timeouts_check_sched
+                0x0001bd74       0x10 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.timer_list_handler_sched
+                0x0001bd84       0x10 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.timeout_handler_exec
+                0x0001bd94       0x54 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.timer_timeouts_check
+                0x0001bde8       0xcc /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.elapsed_ticks_acquire
+                0x0001beb4       0x7c /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.list_deletions_handler
+                0x0001bf30       0xec /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.expired_timers_handler
+                0x0001c01c       0x98 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.list_insertions_handler
+                0x0001c0b4      0x194 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.compare_reg_update
+                0x0001c248       0xe4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.timer_list_handler
+                0x0001c32c       0x90 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.user_op_enque
+                0x0001c3bc       0x20 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.user_op_alloc
+                0x0001c3dc       0x68 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.timer_start_op_schedule
+                0x0001c444       0x84 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.timer_stop_op_schedule
+                0x0001c4c8       0x64 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.RTC1_IRQHandler
+                0x0001c52c       0x50 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+                0x0001c52c                RTC1_IRQHandler
+ .text.SWI0_IRQHandler
+                0x0001c57c       0x10 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+                0x0001c57c                SWI0_IRQHandler
+ .text.app_timer_init
+                0x0001c58c      0x108 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+                0x0001c58c                app_timer_init
+ .text.app_timer_create
+                0x0001c694       0x6c /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+                0x0001c694                app_timer_create
+ .text.user_id_get
+                0x0001c700       0x34 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .text.app_timer_start
+                0x0001c734       0x74 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+                0x0001c734                app_timer_start
+ .text.app_timer_stop
+                0x0001c7a8       0x50 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+                0x0001c7a8                app_timer_stop
+ .text.nrf_gpiote_event_is_set
+                0x0001c7f8       0x2c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpiote_event_clear
+                0x0001c824       0x24 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpiote_event_addr_get
+                0x0001c848       0x24 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpiote_int_enable
+                0x0001c86c       0x20 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpiote_int_is_enabled
+                0x0001c88c       0x20 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpiote_event_enable
+                0x0001c8ac       0x30 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpiote_event_configure
+                0x0001c8dc       0x70 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpiote_event_pin_get
+                0x0001c94c       0x28 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpiote_event_polarity_get
+                0x0001c974       0x2c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpio_cfg
+                0x0001c9a0       0x60 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpio_cfg_input
+                0x0001ca00       0x30 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpio_cfg_watcher
+                0x0001ca30       0x34 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpio_cfg_sense_set
+                0x0001ca64       0x60 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpio_pin_read
+                0x0001cac4       0x24 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpio_pins_read
+                0x0001cae8       0x14 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_gpio_pin_sense_get
+                0x0001cafc       0x28 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.pin_in_use_by_te
+                0x0001cb24       0x48 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.pin_in_use_by_port
+                0x0001cb6c       0x30 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.pin_in_use_by_gpiote
+                0x0001cb9c       0x28 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.pin_in_use_by_te_set
+                0x0001cbc4       0x5c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.pin_in_use_clear
+                0x0001cc20       0x24 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.channel_port_get
+                0x0001cc44       0x24 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.channel_handler_get
+                0x0001cc68       0x1c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.channel_port_alloc
+                0x0001cc84       0x84 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.channel_free
+                0x0001cd08       0x40 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .text.nrf_drv_gpiote_init
+                0x0001cd48       0x84 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+                0x0001cd48                nrf_drv_gpiote_init
+ .text.nrf_drv_gpiote_is_init
+                0x0001cdcc       0x1c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+                0x0001cdcc                nrf_drv_gpiote_is_init
+ .text.nrf_drv_gpiote_in_init
+                0x0001cde8       0xcc /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+                0x0001cde8                nrf_drv_gpiote_in_init
+ .text.nrf_drv_gpiote_in_event_enable
+                0x0001ceb4      0x110 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+                0x0001ceb4                nrf_drv_gpiote_in_event_enable
+ .text.nrf_drv_gpiote_in_is_set
+                0x0001cfc4       0x20 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+                0x0001cfc4                nrf_drv_gpiote_in_is_set
+ .text.GPIOTE_IRQHandler
+                0x0001cfe4      0x1e4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+                0x0001cfe4                GPIOTE_IRQHandler
+ .text.NVIC_EnableIRQ
+                0x0001d1c8       0x2c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/common/nrf_drv_common.o
+ .text.NVIC_ClearPendingIRQ
+                0x0001d1f4       0x34 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/common/nrf_drv_common.o
+ .text.NVIC_SetPriority
+                0x0001d228       0xdc /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/common/nrf_drv_common.o
+ .text.nrf_drv_common_irq_enable
+                0x0001d304       0x44 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/common/nrf_drv_common.o
+                0x0001d304                nrf_drv_common_irq_enable
+ .text.pstorage_flash_page_size
+                0x0001d348       0x14 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.pstorage_flash_page_end
+                0x0001d35c       0x38 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_flash_write
+                0x0001d394        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sd_flash_page_erase
+                0x0001d39c        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.is_word_aligned
+                0x0001d3a4       0x1c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.command_queue_element_consume
+                0x0001d3c0       0x40 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.command_end_procedure_run
+                0x0001d400       0x34 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.state_idle_entry_run
+                0x0001d434       0x24 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.app_notify_error_state_transit
+                0x0001d458       0x38 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.flash_api_err_code_process
+                0x0001d490       0x38 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.flash_write
+                0x0001d4c8       0x28 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.store_cmd_flash_write_execute
+                0x0001d4f0       0xac /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.state_store_entry_run
+                0x0001d59c       0x10 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.state_data_erase_swap_entry_run
+                0x0001d5ac       0xc4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.flash_page_erase
+                0x0001d670       0x20 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.state_data_erase_entry_run
+                0x0001d690       0x18 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.state_entry_action_run
+                0x0001d6a8       0x40 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.sm_state_change
+                0x0001d6e8       0x24 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.state_swap_erase_entry_run
+                0x0001d70c       0x30 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.state_write_data_swap_entry_run
+                0x0001d73c       0x44 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.state_erase_data_page_entry_run
+                0x0001d780       0x18 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.state_restore_tail_entry_run
+                0x0001d798       0x8c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.state_restore_head_entry_run
+                0x0001d824       0x40 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.swap_sub_state_entry_action_run
+                0x0001d864       0x20 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.swap_sub_state_state_change
+                0x0001d884       0x24 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.cmd_queue_element_init
+                0x0001d8a8       0x8c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.cmd_queue_init
+                0x0001d934       0x38 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.cmd_queue_enqueue
+                0x0001d96c       0xe8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.cmd_queue_dequeue
+                0x0001da54       0x1c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.app_notify
+                0x0001da70       0x58 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.is_tail_data_page_swap_required
+                0x0001dac8       0x84 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.clear_post_processing_run
+                0x0001db4c       0x3c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.swap_sub_sm_exit_action_run
+                0x0001db88       0x10 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.is_page_erase_required
+                0x0001db98       0x90 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.swap_sub_state_err_busy_process
+                0x0001dc28       0x2c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.head_restore_state_run
+                0x0001dc54       0x74 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.tail_restore_state_run
+                0x0001dcc8       0x24 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.data_page_erase_state_run
+                0x0001dcec       0x88 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.data_to_swap_write_state_run
+                0x0001dd74       0x3c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.swap_erase_state_run
+                0x0001ddb0       0x24 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.swap_sub_state_sm_run
+                0x0001ddd4       0x20 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.main_state_err_busy_process
+                0x0001ddf4       0x2c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.erase_sub_state_sm_run
+                0x0001de20       0x54 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.store_sub_state_sm_run
+                0x0001de74       0x64 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.flash_operation_success_run
+                0x0001ded8       0x34 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.flash_operation_failure_run
+                0x0001df0c       0x50 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.pstorage_sys_event_handler
+                0x0001df5c       0x50 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+                0x0001df5c                pstorage_sys_event_handler
+ .text.tail_word_size_calculate
+                0x0001dfac       0x94 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.clear_operation_execute
+                0x0001e040      0x198 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.store_operation_execute
+                0x0001e1d8       0x10 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.update_operation_execute
+                0x0001e1e8       0x10 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.cmd_process
+                0x0001e1f8       0x5c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .text.pstorage_init
+                0x0001e254       0xc4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+                0x0001e254                pstorage_init
+ .text.pstorage_register
+                0x0001e318      0x184 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+                0x0001e318                pstorage_register
+ .text.pstorage_store
+                0x0001e49c      0x168 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+                0x0001e49c                pstorage_store
+ .text.pstorage_update
+                0x0001e604      0x168 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+                0x0001e604                pstorage_update
+ .text.pstorage_load
+                0x0001e76c      0x18c /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+                0x0001e76c                pstorage_load
+ .text.pstorage_clear
+                0x0001e8f8      0x1a8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+                0x0001e8f8                pstorage_clear
+ .text.fe25519_cpy
+                0x0001eaa0       0x34 ../curve25519-cortexm0/scalarmult.o
+ .text.fe25519_unpack
+                0x0001ead4       0x5c ../curve25519-cortexm0/scalarmult.o
+ .text.fe25519_sub
+                0x0001eb30      0x138 ../curve25519-cortexm0/scalarmult.o
+ .text.fe25519_add
+                0x0001ec68      0x140 ../curve25519-cortexm0/scalarmult.o
+ .text.fe25519_mul
+                0x0001eda8       0x30 ../curve25519-cortexm0/scalarmult.o
+ .text.fe25519_square
+                0x0001edd8       0x30 ../curve25519-cortexm0/scalarmult.o
+ .text.fe25519_reduceCompletely
+                0x0001ee08      0x178 ../curve25519-cortexm0/scalarmult.o
+ .text.fe25519_pack
+                0x0001ef80       0x54 ../curve25519-cortexm0/scalarmult.o
+ .text.fe25519_invert_useProvidedScratchBuffers
+                0x0001efd4      0x298 ../curve25519-cortexm0/scalarmult.o
+ .text.fe25519_setzero
+                0x0001f26c       0x40 ../curve25519-cortexm0/scalarmult.o
+ .text.fe25519_setone
+                0x0001f2ac       0x48 ../curve25519-cortexm0/scalarmult.o
+ .text.fe25519_cswap
+                0x0001f2f4       0x7c ../curve25519-cortexm0/scalarmult.o
+ .text.curve25519_ladderstep
+                0x0001f370      0x10c ../curve25519-cortexm0/scalarmult.o
+ .text.curve25519_cswap
+                0x0001f47c       0x44 ../curve25519-cortexm0/scalarmult.o
+ .text.crypto_scalarmult_curve25519
+                0x0001f4c0      0x224 ../curve25519-cortexm0/scalarmult.o
+                0x0001f4c0                crypto_scalarmult_curve25519
+ .text.crypto_scalarmult_curve25519_base
+                0x0001f6e4       0x24 ../curve25519-cortexm0/scalarmult.o
+                0x0001f6e4                crypto_scalarmult_curve25519_base
+ .text.crypto_hash_sha512
+                0x0001f708      0x310 ../avrnacl/crypto_hash/sha512.o
+                0x0001f708                crypto_hash_sha512
+ .text.myu64_load_bigendian
+                0x0001fa18       0x54 ../avrnacl/crypto_hashblocks/sha512.o
+ .text.myu64_store_bigendian
+                0x0001fa6c       0x60 ../avrnacl/crypto_hashblocks/sha512.o
+ .text.myu64_add
+                0x0001facc       0x20 ../avrnacl/crypto_hashblocks/sha512.o
+ .text.myu64_xor
+                0x0001faec       0x58 ../avrnacl/crypto_hashblocks/sha512.o
+ .text.myu64_and
+                0x0001fb44       0x58 ../avrnacl/crypto_hashblocks/sha512.o
+ .text.myu64_not
+                0x0001fb9c       0x4c ../avrnacl/crypto_hashblocks/sha512.o
+ .text.myu64_ror
+                0x0001fbe8       0xc8 ../avrnacl/crypto_hashblocks/sha512.o
+ .text.myu64_shr
+                0x0001fcb0       0x90 ../avrnacl/crypto_hashblocks/sha512.o
+ .text.Ch       0x0001fd40       0x4c ../avrnacl/crypto_hashblocks/sha512.o
+ .text.Maj      0x0001fd8c       0x5c ../avrnacl/crypto_hashblocks/sha512.o
+ .text.Sigma0   0x0001fde8       0x74 ../avrnacl/crypto_hashblocks/sha512.o
+ .text.Sigma1   0x0001fe5c       0x74 ../avrnacl/crypto_hashblocks/sha512.o
+ .text.sigma0   0x0001fed0       0x84 ../avrnacl/crypto_hashblocks/sha512.o
+ .text.sigma1   0x0001ff54       0x84 ../avrnacl/crypto_hashblocks/sha512.o
+ .text.M        0x0001ffd8       0x5c ../avrnacl/crypto_hashblocks/sha512.o
+ .text.expand   0x00020034       0xd8 ../avrnacl/crypto_hashblocks/sha512.o
+ .text.myF      0x0002010c      0x120 ../avrnacl/crypto_hashblocks/sha512.o
+ .text.crypto_hashblocks_sha512
+                0x0002022c     0x1394 ../avrnacl/crypto_hashblocks/sha512.o
+                0x0002022c                crypto_hashblocks_sha512
+ .text.crypto_auth_hmacsha512256
+                0x000215c0      0x5ac ../avrnacl/crypto_auth/hmac.o
+                0x000215c0                crypto_auth_hmacsha512256
+ .text.crypto_auth_hmacsha512256_verify
+                0x00021b6c       0x3c ../avrnacl/crypto_auth/hmac.o
+                0x00021b6c                crypto_auth_hmacsha512256_verify
+ .text.vn       0x00021ba8       0x80 ../avrnacl/crypto_verify/verify.o
+ .text.crypto_verify_32
+                0x00021c28       0x20 ../avrnacl/crypto_verify/verify.o
+                0x00021c28                crypto_verify_32
+ .text.avrnacl_bigint_add
+                0x00021c48       0x80 ../avrnacl/shared/bigint.o
+                0x00021c48                avrnacl_bigint_add
+ .text.nrf_gpio_cfg
+                0x00021cc8       0x60 ../hd44780nrf51/hd44780nrf51.o
+ .text.nrf_gpio_cfg_output
+                0x00021d28       0x24 ../hd44780nrf51/hd44780nrf51.o
+ .text.nrf_gpio_pin_set
+                0x00021d4c       0x20 ../hd44780nrf51/hd44780nrf51.o
+ .text.nrf_gpio_pin_clear
+                0x00021d6c       0x24 ../hd44780nrf51/hd44780nrf51.o
+ .text.short_instr_wait
+                0x00021d90       0x34 ../hd44780nrf51/hd44780nrf51.o
+ .text.long_instr_wait
+                0x00021dc4       0x10 ../hd44780nrf51/hd44780nrf51.o
+ .text.enable   0x00021dd4       0x6c ../hd44780nrf51/hd44780nrf51.o
+ .text.set_nibble
+                0x00021e40       0x98 ../hd44780nrf51/hd44780nrf51.o
+ .text.send_byte
+                0x00021ed8       0x60 ../hd44780nrf51/hd44780nrf51.o
+ .text.init_pins
+                0x00021f38       0x88 ../hd44780nrf51/hd44780nrf51.o
+ .text.cmd_function_set
+                0x00021fc0       0x54 ../hd44780nrf51/hd44780nrf51.o
+ .text.cmd_display_on_off
+                0x00022014       0x98 ../hd44780nrf51/hd44780nrf51.o
+ .text.cmd_clear_display
+                0x000220ac       0x38 ../hd44780nrf51/hd44780nrf51.o
+ .text.cmd_set_ddram_addr
+                0x000220e4       0x58 ../hd44780nrf51/hd44780nrf51.o
+ .text.cmd_set_entry_mode
+                0x0002213c       0x78 ../hd44780nrf51/hd44780nrf51.o
+ .text.init_sequence
+                0x000221b4       0xc4 ../hd44780nrf51/hd44780nrf51.o
+ .text.hd44780_init
+                0x00022278       0x20 ../hd44780nrf51/hd44780nrf51.o
+                0x00022278                hd44780_init
+ .text.hd44780_display_on_off
+                0x00022298       0x3c ../hd44780nrf51/hd44780nrf51.o
+                0x00022298                hd44780_display_on_off
+ .text.hd44780_print_line
+                0x000222d4       0x74 ../hd44780nrf51/hd44780nrf51.o
+                0x000222d4                hd44780_print_line
+ .text.hd44780_clear_display
+                0x00022348       0x18 ../hd44780nrf51/hd44780nrf51.o
+                0x00022348                hd44780_clear_display
+ .text          0x00022360       0x54 gcc_startup_nrf51_aa.o
+                0x00022360                Reset_Handler
+                0x000223a8                NMI_Handler
+                0x000223aa                HardFault_Handler
+                0x000223ac                SVC_Handler
+                0x000223ae                PendSV_Handler
+                0x000223b0                SysTick_Handler
+                0x000223b2                TIMER2_IRQHandler
+                0x000223b2                SPI0_TWI0_IRQHandler
+                0x000223b2                RTC0_IRQHandler
+                0x000223b2                POWER_CLOCK_IRQHandler
+                0x000223b2                RADIO_IRQHandler
+                0x000223b2                LPCOMP_IRQHandler
+                0x000223b2                SWI4_IRQHandler
+                0x000223b2                TEMP_IRQHandler
+                0x000223b2                QDEC_IRQHandler
+                0x000223b2                UART0_IRQHandler
+                0x000223b2                SWI5_IRQHandler
+                0x000223b2                TIMER0_IRQHandler
+                0x000223b2                TIMER1_IRQHandler
+                0x000223b2                ECB_IRQHandler
+                0x000223b2                Default_Handler
+                0x000223b2                ADC_IRQHandler
+                0x000223b2                SWI3_IRQHandler
+                0x000223b2                CCM_AAR_IRQHandler
+                0x000223b2                WDT_IRQHandler
+                0x000223b2                RNG_IRQHandler
+                0x000223b2                SPI1_TWI1_IRQHandler
+                0x000223b2                SWI1_IRQHandler
+ .text          0x000223b4      0x13c ../curve25519-cortexm0/cortex_m0_mpy121666.o
+                0x000223b4                fe25519_mpyWith121666_asm
+ .text          0x000224f0      0x118 ../curve25519-cortexm0/cortex_m0_reduce25519.o
+                0x000224f0                fe25519_reduceTo256Bits_asm
+ .text          0x00022608      0x880 ../curve25519-cortexm0/mul.o
+                0x00022608                multiply256x256_asm
+ .text          0x00022e88      0x574 ../curve25519-cortexm0/sqr.o
+                0x00022e88                square256_asm
+ .text          0x000233fc      0x114 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a(_udivsi3.o)
+                0x000233fc                __udivsi3
+                0x000233fc                __aeabi_uidiv
+                0x00023508                __aeabi_uidivmod
+ .text          0x00023510      0x1d4 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a(_divsi3.o)
+                0x00023510                __aeabi_idiv
+                0x00023510                __divsi3
+                0x000236dc                __aeabi_idivmod
+ .text          0x000236e4        0x4 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a(_dvmd_tls.o)
+                0x000236e4                __aeabi_ldiv0
+                0x000236e4                __aeabi_idiv0
+ .text.memcpy   0x000236e8       0x12 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy-stub.o)
+                0x000236e8                memcpy
+ *fill*         0x000236fa        0x2 
+ .text.sprintf  0x000236fc       0x44 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sprintf.o)
+                0x000236fc                sprintf
+                0x000236fc                siprintf
+ .text          0x00023740        0xe /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strlen.o)
+                0x00023740                strlen
+ *fill*         0x0002374e        0x2 
+ .text.__ssputs_r
+                0x00023750       0xc4 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x00023750                __ssputs_r
+ .text._svfprintf_r
+                0x00023814      0x1fc /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x00023814                _svfprintf_r
+                0x00023814                _svfiprintf_r
+ .text._printf_common
+                0x00023a10       0xdc /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00023a10                _printf_common
+ .text._printf_i
+                0x00023aec      0x244 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00023aec                _printf_i
+ .text.memchr   0x00023d30       0x16 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memchr-stub.o)
+                0x00023d30                memchr
+ .text.memmove  0x00023d46       0x2a /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memmove.o)
+                0x00023d46                memmove
+ .text._free_r  0x00023d70       0x8c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-freer.o)
+                0x00023d70                _free_r
+ .text._malloc_r
+                0x00023dfc       0xac /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-mallocr.o)
+                0x00023dfc                _malloc_r
+ .text._realloc_r
+                0x00023ea8       0x4c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-reallocr.o)
+                0x00023ea8                _realloc_r
+ .text._sbrk_r  0x00023ef4       0x24 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sbrkr.o)
+                0x00023ef4                _sbrk_r
+ .text._malloc_usable_size_r
+                0x00023f18       0x16 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-msizer.o)
+                0x00023f18                _malloc_usable_size_r
+ *fill*         0x00023f2e        0x2 
+ .text._sbrk    0x00023f30       0x1c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(sbrk.o)
+                0x00023f30                _sbrk
+ *(.init)
+ .init          0x00023f4c        0x4 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crti.o
+                0x00023f4c                _init
+ .init          0x00023f50        0x8 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtn.o
+ *(.fini)
+ .fini          0x00023f58        0x4 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crti.o
+                0x00023f58                _fini
+ .fini          0x00023f5c        0x8 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtn.o
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00023f64        0x2 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ *fill*         0x00023f66        0x2 
+ .rodata._global_impure_ptr
+                0x00023f68        0x4 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+                0x00023f68                _global_impure_ptr
+ .rodata.auth_timer
+                0x00023f6c        0x4 key20.o
+ .rodata.lock_action_timer
+                0x00023f70        0x4 key20.o
+ .rodata        0x00023f74       0xa0 key20.o
+ .rodata.ble_evt_handler
+                0x00024014      0x110 key20.o
+ .rodata.state_transition
+                0x00024124       0x48 key20.o
+ .rodata.m_detection_delay_timer_id
+                0x0002416c        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/button/app_button.o
+ .rodata.swap_sub_state_sm_lut.5957
+                0x00024170       0x14 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .rodata.swap_sub_state_sm_lut.6032
+                0x00024184       0x14 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .rodata.base.3967
+                0x00024198       0x20 ../curve25519-cortexm0/scalarmult.o
+ .rodata.roundconstants
+                0x000241b8      0x280 ../avrnacl/crypto_hashblocks/sha512.o
+                0x000241b8                roundconstants
+ .rodata.avrnacl_sha512_iv
+                0x00024438       0x40 ../avrnacl/shared/consts.o
+                0x00024438                avrnacl_sha512_iv
+ .rodata.str1.1
+                0x00024478       0x11 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o)
+ .rodata.str1.1
+                0x00024489       0x22 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ *(.eh_frame*)
+ *fill*         0x000244ab        0x1 
+ .eh_frame      0x000244ac        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+                0x000244ac                . = ALIGN (0x4)
+
+.glue_7         0x000244ac        0x0
+ .glue_7        0x000244ac        0x0 linker stubs
+
+.glue_7t        0x000244ac        0x0
+ .glue_7t       0x000244ac        0x0 linker stubs
+
+.vfp11_veneer   0x000244ac        0x0
+ .vfp11_veneer  0x000244ac        0x0 linker stubs
+
+.v4_bx          0x000244ac        0x0
+ .v4_bx         0x000244ac        0x0 linker stubs
+
+.iplt           0x000244ac        0x0
+ .iplt          0x000244ac        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+
+.ARM.extab      0x000244ac        0x0
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000244ac                . = ALIGN (0x4)
+                0x000244ac                __exidx_start = .
+
+.ARM.exidx      0x000244ac        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x000244ac        0x8 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.exidx     0x000244b4        0x0 gcc_startup_nrf51_aa.o
+                                  0x8 (size before relaxing)
+                0x000244b4                . = ALIGN (0x4)
+                0x000244b4                __exidx_end = .
+                0x000244b4                __etext = .
+
+.rel.dyn        0x000244b4        0x0
+ .rel.iplt      0x000244b4        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+
+.data           0x20002000       0xb0 load address 0x000244b4
+                0x20002000                __data_start__ = .
+ *(vtable)
+ *(.data*)
+ .data.impure_data
+                0x20002000       0x60 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .data._impure_ptr
+                0x20002060        0x4 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+                0x20002060                _impure_ptr
+ .data.pstore_preamble
+                0x20002064       0x10 key20.o
+                0x20002064                pstore_preamble
+ .data.lcd      0x20002074       0x20 key20.o
+                0x20002074                lcd
+ .data.conn_handle
+                0x20002094        0x2 key20.o
+                0x20002094                conn_handle
+ *fill*         0x20002096        0x2 
+ .data.buttons.8200
+                0x20002098       0x10 key20.o
+                0x200020a8                . = ALIGN (0x4)
+                0x200020a8                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x200020a8                PROVIDE (__preinit_array_end, .)
+                0x200020a8                . = ALIGN (0x4)
+                0x200020a8                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x200020a8        0x4 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+                0x200020ac                PROVIDE (__init_array_end, .)
+                0x200020ac                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+ .fini_array    0x200020ac        0x4 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+                [!provide]                PROVIDE (__fini_array_end, .)
+ *(.jcr)
+ .jcr           0x200020b0        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+                0x200020b0                . = ALIGN (0x4)
+                0x200020b0                __data_end__ = .
+
+.tm_clone_table
+                0x200020b0        0x0 load address 0x00024564
+ .tm_clone_table
+                0x200020b0        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+ .tm_clone_table
+                0x200020b0        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtend.o
+
+.igot.plt       0x200020b0        0x0 load address 0x00024564
+ .igot.plt      0x200020b0        0x0 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+
+.bss            0x200020b0      0x648 load address 0x00024564
+                0x200020b0                . = ALIGN (0x4)
+                0x200020b0                __bss_start__ = .
+ *(.bss*)
+ .bss           0x200020b0       0x1c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+ .bss.auth_timer_data
+                0x200020cc       0x20 key20.o
+ .bss.lock_action_timer_data
+                0x200020ec       0x20 key20.o
+ .bss.keys_valid
+                0x2000210c        0x1 key20.o
+                0x2000210c                keys_valid
+ .bss.keyexchange_key_no
+                0x2000210d        0x1 key20.o
+                0x2000210d                keyexchange_key_no
+ .bss.unlock_key_no
+                0x2000210e        0x1 key20.o
+                0x2000210e                unlock_key_no
+ .bss.is_pstore_ready
+                0x2000210f        0x1 key20.o
+                0x2000210f                is_pstore_ready
+ .bss.BLE_EVT_BUFFER.8118
+                0x20002110       0x48 key20.o
+ .bss.APP_TIMER_BUF.8181
+                0x20002158      0x258 key20.o
+ .bss.m_evt_schedule_func
+                0x200023b0        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .bss.m_softdevice_enabled
+                0x200023b4        0x1 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ *fill*         0x200023b5        0x3 
+ .bss.mp_ble_evt_buffer
+                0x200023b8        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .bss.m_ble_evt_buffer_size
+                0x200023bc        0x2 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ *fill*         0x200023be        0x2 
+ .bss.m_ble_evt_handler
+                0x200023c0        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .bss.m_sys_evt_handler
+                0x200023c4        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .bss.mp_buttons
+                0x200023c8        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/button/app_button.o
+ .bss.m_button_count
+                0x200023cc        0x1 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/button/app_button.o
+ *fill*         0x200023cd        0x3 
+ .bss.m_detection_delay
+                0x200023d0        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/button/app_button.o
+ .bss.m_detection_delay_timer_id_data
+                0x200023d4       0x20 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/button/app_button.o
+ .bss.m_pin_state
+                0x200023f4        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/button/app_button.o
+ .bss.m_pin_transition
+                0x200023f8        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/button/app_button.o
+ .bss.m_user_array_size
+                0x200023fc        0x1 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ *fill*         0x200023fd        0x3 
+ .bss.mp_users  0x20002400        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .bss.mp_timer_id_head
+                0x20002404        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .bss.m_ticks_latest
+                0x20002408        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .bss.m_ticks_elapsed
+                0x2000240c        0x8 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .bss.m_ticks_elapsed_q_read_ind
+                0x20002414        0x1 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .bss.m_ticks_elapsed_q_write_ind
+                0x20002415        0x1 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ *fill*         0x20002416        0x2 
+ .bss.m_evt_schedule_func
+                0x20002418        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .bss.m_rtc1_running
+                0x2000241c        0x1 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .bss.m_rtc1_reset
+                0x2000241d        0x1 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ *fill*         0x2000241e        0x2 
+ .bss.m_cb      0x20002420       0x48 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .bss.m_cmd_queue
+                0x20002468       0xcc /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .bss.m_next_app_instance
+                0x20002534        0x2 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ *fill*         0x20002536        0x2 
+ .bss.m_next_page_addr
+                0x20002538        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .bss.m_state   0x2000253c        0x1 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .bss.m_swap_sub_state
+                0x2000253d        0x1 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ *fill*         0x2000253e        0x2 
+ .bss.m_head_word_size
+                0x20002540        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .bss.m_tail_word_size
+                0x20002544        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .bss.m_current_page_id
+                0x20002548        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .bss.m_num_of_command_retries
+                0x2000254c        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .bss.m_app_table
+                0x20002550        0xc /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .bss.m_num_of_bytes_written
+                0x2000255c        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .bss.m_app_data_size
+                0x20002560        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .bss.m_flags   0x20002564        0x4 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .bss.__malloc_sbrk_start
+                0x20002568        0x4 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-mallocr.o)
+                0x20002568                __malloc_sbrk_start
+ .bss.__malloc_free_list
+                0x2000256c        0x4 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-mallocr.o)
+                0x2000256c                __malloc_free_list
+ .bss.heap_end.4167
+                0x20002570        0x4 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(sbrk.o)
+ *(COMMON)
+ COMMON         0x20002574      0x180 key20.o
+                0x20002574                char_handle_nonce
+                0x2000257c                app_event_queue
+                0x2000259c                keyexchange_server_public_key
+                0x200025bc                keyexchange_shared_secret
+                0x200025dc                char_handle_unlock
+                0x200025e4                uuid_type
+                0x200025e5                app_state
+                0x200025e8                pstore_handle
+                0x200025f0                nonce
+                0x20002600                char_handle_cfg_in
+                0x20002608                keyexchange_client_public_key
+                0x20002628                unlock_hmac_client
+                0x20002648                service_handle
+                0x2000264c                char_handle_cfg_out
+                0x20002654                keys
+                0x200026d4                keyexchange_server_secret_key
+ COMMON         0x200026f4        0x4 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-reent.o)
+                0x200026f4                errno
+                0x200026f8                . = ALIGN (0x4)
+                0x200026f8                __bss_end__ = .
+
+.heap           0x200026f8      0x200
+                0x200026f8                __end__ = .
+                0x200026f8                end = __end__
+ *(.heap*)
+ .heap          0x200026f8      0x200 gcc_startup_nrf51_aa.o
+                0x200026f8                __HeapBase
+                0x200028f8                __HeapLimit = .
+
+.stack_dummy    0x200026f8      0xe00
+ *(.stack*)
+ .stack         0x200026f8      0xe00 gcc_startup_nrf51_aa.o
+                0x20004000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
+                0x20003200                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
+                0x20004000                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region RAM overflowed with stack)
+OUTPUT(key20.out elf32-littlearm)
+
+.ARM.attributes
+                0x00000000       0x28
+ .ARM.attributes
+                0x00000000       0x1e /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crti.o
+ .ARM.attributes
+                0x0000001e       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
+ .ARM.attributes
+                0x0000004a       0x1b /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .ARM.attributes
+                0x00000065       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x00000091       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000000bd       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x000000e9       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x00000115       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x00000141       0x31 key20.o
+ .ARM.attributes
+                0x00000172       0x31 app_event_queue.o
+ .ARM.attributes
+                0x000001a3       0x31 /home/duerrfk/local/nRF51_SDK_10.0.0/components/toolchain/system_nrf51.o
+ .ARM.attributes
+                0x000001d4       0x31 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/delay/nrf_delay.o
+ .ARM.attributes
+                0x00000205       0x31 /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .ARM.attributes
+                0x00000236       0x31 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/util/app_error.o
+ .ARM.attributes
+                0x00000267       0x31 /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .ARM.attributes
+                0x00000298       0x31 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/button/app_button.o
+ .ARM.attributes
+                0x000002c9       0x31 /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .ARM.attributes
+                0x000002fa       0x31 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .ARM.attributes
+                0x0000032b       0x31 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/common/nrf_drv_common.o
+ .ARM.attributes
+                0x0000035c       0x31 /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .ARM.attributes
+                0x0000038d       0x31 ../curve25519-cortexm0/scalarmult.o
+ .ARM.attributes
+                0x000003be       0x31 ../avrnacl/crypto_hash/sha512.o
+ .ARM.attributes
+                0x000003ef       0x31 ../avrnacl/crypto_hashblocks/sha512.o
+ .ARM.attributes
+                0x00000420       0x31 ../avrnacl/crypto_auth/hmac.o
+ .ARM.attributes
+                0x00000451       0x31 ../avrnacl/crypto_verify/verify.o
+ .ARM.attributes
+                0x00000482       0x31 ../avrnacl/shared/consts.o
+ .ARM.attributes
+                0x000004b3       0x31 ../avrnacl/shared/bigint.o
+ .ARM.attributes
+                0x000004e4       0x31 ../hd44780nrf51/hd44780nrf51.o
+ .ARM.attributes
+                0x00000515       0x1b gcc_startup_nrf51_aa.o
+ .ARM.attributes
+                0x00000530       0x31 ../curve25519-cortexm0/cortex_m0_mpy121666.o
+ .ARM.attributes
+                0x00000561       0x31 ../curve25519-cortexm0/cortex_m0_reduce25519.o
+ .ARM.attributes
+                0x00000592       0x21 ../curve25519-cortexm0/mul.o
+ .ARM.attributes
+                0x000005b3       0x21 ../curve25519-cortexm0/sqr.o
+ .ARM.attributes
+                0x000005d4       0x1e /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000005f2       0x1e /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000610       0x1e /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000062e       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000065a       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sprintf.o)
+ .ARM.attributes
+                0x00000686       0x1c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x000006a2       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o)
+ .ARM.attributes
+                0x000006ce       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .ARM.attributes
+                0x000006fa       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memchr-stub.o)
+ .ARM.attributes
+                0x00000726       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x00000752       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x0000077e       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x000007aa       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-reallocr.o)
+ .ARM.attributes
+                0x000007d6       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000802       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-msizer.o)
+ .ARM.attributes
+                0x0000082e       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000085a       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtend.o
+ .ARM.attributes
+                0x00000886       0x1e /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtn.o
+ .ARM.attributes
+                0x000008a4       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(sbrk.o)
+
+.comment        0x00000000       0x6e
+ .comment       0x00000000       0x6e key20.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f app_event_queue.o
+ .comment       0x0000006e       0x6f /home/duerrfk/local/nRF51_SDK_10.0.0/components/toolchain/system_nrf51.o
+ .comment       0x0000006e       0x6f /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/delay/nrf_delay.o
+ .comment       0x0000006e       0x6f /home/duerrfk/local/nRF51_SDK_10.0.0/components/softdevice/common/softdevice_handler/softdevice_handler.o
+ .comment       0x0000006e       0x6f /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/util/app_error.o
+ .comment       0x0000006e       0x6f /home/duerrfk/local/nRF51_SDK_10.0.0/components/ble/common/ble_advdata.o
+ .comment       0x0000006e       0x6f /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/button/app_button.o
+ .comment       0x0000006e       0x6f /home/duerrfk/local/nRF51_SDK_10.0.0/components/libraries/timer/app_timer.o
+ .comment       0x0000006e       0x6f /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/gpiote/nrf_drv_gpiote.o
+ .comment       0x0000006e       0x6f /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/common/nrf_drv_common.o
+ .comment       0x0000006e       0x6f /home/duerrfk/local/nRF51_SDK_10.0.0/components/drivers_nrf/pstorage/pstorage.o
+ .comment       0x0000006e       0x6f ../curve25519-cortexm0/scalarmult.o
+ .comment       0x0000006e       0x6f ../avrnacl/crypto_hash/sha512.o
+ .comment       0x0000006e       0x6f ../avrnacl/crypto_hashblocks/sha512.o
+ .comment       0x0000006e       0x6f ../avrnacl/crypto_auth/hmac.o
+ .comment       0x0000006e       0x6f ../avrnacl/crypto_verify/verify.o
+ .comment       0x0000006e       0x6f ../avrnacl/shared/consts.o
+ .comment       0x0000006e       0x6f ../avrnacl/shared/bigint.o
+ .comment       0x0000006e       0x6f ../hd44780nrf51/hd44780nrf51.o
+
+.debug_frame    0x00000000      0x398
+ .debug_frame   0x00000000       0x28 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x00000028       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000054       0x20 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x00000074       0x20 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+ .debug_frame   0x00000094       0x20 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a(_udivsi3.o)
+ .debug_frame   0x000000b4       0x20 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/libgcc.a(_divsi3.o)
+ .debug_frame   0x000000d4       0x28 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x000000fc       0x50 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sprintf.o)
+ .debug_frame   0x0000014c       0x74 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x000001c0       0x54 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x00000214       0x20 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x00000234       0x28 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x0000025c       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00000288       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x000002b4       0x30 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x000002e4       0x2c /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x00000310       0x20 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x00000330       0x48 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libc_nano.a(lib_a-reent.o)
+ .debug_frame   0x00000378       0x20 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(sbrk.o)

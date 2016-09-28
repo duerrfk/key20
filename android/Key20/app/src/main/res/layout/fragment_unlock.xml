@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.frank_durr.key20.UnlockFragment"
+    android:id="@+id/unlock_fragment"
+    android:padding="5dp">
+
+    <ProgressBar android:id="@+id/progressbar_unlock"
+        style="@android:style/Widget.ProgressBar.Small"
+        android:indeterminateOnly="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView android:id="@+id/label_unlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_unlock"
+        android:layout_below="@+id/progressbar_unlock"
+        android:layout_alignParentLeft="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_unlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:scaleType="center"
+        android:elevation="8dp"
+        android:src="@drawable/ic_lock_open_white_24dp"
+        android:clickable="true" />
+
+</RelativeLayout>

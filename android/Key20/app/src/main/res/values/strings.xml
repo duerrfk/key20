@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Key 2.0</string>
+    <string name="permission_dialog_label">Your permission is required</string>
+    <string name="permission_request_coarse_location">This app needs access to coarse location information to scan for Bluetooth devices.</string>
+    <string name="scanning">Scanning for devices …</string>
+    <string name="notscanning">Scanning stopped</string>
+    <string name="tab_label_unlock">Unlock Door</string>
+    <string name="tab_label_keyexchange">Key Exchange</string>
+    <string name="label_unlock">Push unlock button to open door.</string>
+    <string name="keyex_instructions"><![CDATA[<p><b>STEP 1:</b> Select the number of the key that you want to change or create below.</p><p><b>STEP 2:</b> Push the red button on the remote device to start the key exchange procedure.</p><p><b>STEP 3:</b> Click the key exchange button (the button with the key symbol) on the smartphone.</p><p><b>STEP 4:</b> Compare the key checksums displayed on the remote device and on the smartphone.</p><p><b>STEP 5:</b> <u>Only if</u> both devices display the <u>same checksum</u>, push the <font color="green">green button</font> on the remote device and the Confirm Key button on the smartphone to confirm the key. If the checksums differ, push the <font color="red">red button</font> on the remote device.</p>]]></string>
+    <string name="label_keynumber">Key number: </string>
+    <string name="hint_keynumber">Key number</string>
+    <string name="button_keyexchange_label">Exchange Keys</string>
+    <string name="button_confirm_key_label">Confirm Key</string>
+    <string name="button_abort_label">Abort</string>
+    <string name="textview_checksum_label">Key checksum: </string>
+    <string name="action_startscanning">Start scanning</string>
+    <string name="action_scan">Scan for Devices</string>
+    <string name="about_message"><![CDATA[<p>Key 2.0</p><p>Copyright 2016 Frank Dürr</p><p>Licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 license</a>.</p><p>Source code and hardware design are available from <a href="">Github</a>.</p>]]></string>
+    <string name="action_about">About</string>
+    <string name="err_bluetooth_notavailable">Bluetooth not available</string>
+    <string name="err_bluetooth_nodevice">No Bluetooth device selected</string>
+    <string name="err_blueooth_connection">Bluetooth connection failure</string>
+    <string name="err_bluetooth_discovery">Bluetooth discovery failure</string>
+    <string name="err_bluetooth_service">Required Bluetooth service not available</string>
+    <string name="err_bluetooth_characteristic">Required Bluetooth characteristic not available</string>
+    <string name="err_bluetooth_notification">Bluetooth notifications failure</string>
+    <string name="err_bluetooth_timeout">Timeout while performing Bluetooth task</string>
+    <string name="err_bluetooth_connection">Bluetooth connection failure</string>
+    <string name="err_app_protocol_violation">Protocol violation</string>
+    <string name="err_bluetooth_write">Could not write Bluetooth characteristic</string>
+    <string name="err_invalid_keyno">Invalid key number</string>
+    <string name="err_no_key_defined">No key defined. Please first exchange keys.</string>
+    <string name="err_task_in_progress">There is already another task in progress. Please wait for it to finish.</string>
+    <string name="err_no_sharedsecret">Please first perform a key exchange</string>
+    <string name="key_confirmed">Key confirmed and stored</string>
+    <string name="door_open_finished">Door unlocked</string>
+    <string name="keyex_finished">IF CHECKSUM IS CORRECT confirm key.</string>
+    <string-array name="spinner_keyno_choices">
+        <item>Key 1</item>
+        <item>Key 2</item>
+        <item>Key 3</item>
+        <item>Key 4</item>
+    </string-array>
+</resources>

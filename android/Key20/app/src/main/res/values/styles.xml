@@ -1,0 +1,13 @@
+<resources>
+<!-- Base application theme. -->
+<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+</style>
+<style name="AppActionBarStyle" parent="Theme.AppCompat">
+    <!-- Since we build on the dark scheme, we should use a dark background color. -->
+    <item name="android:background">@color/actionbarbackground</item>
+</style>
+<style name="AppTabStyle" parent="Theme.AppCompat.Light">
+    <!-- Since we build on the light scheme, we should use a light background color. -->
+    <item name="android:background">@color/tabbackground</item>
+</style>
+</resources>

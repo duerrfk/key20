@@ -1,0 +1,376 @@
+ARM GAS  /tmp/ccf4SJUC.s 			page 1
+
+
+   1              	# 1 "startup/startup_stm32f0xx.s"
+   1              	/********************************************************************************
+   1              	...
+   0              	
+   2              	  * @file      startup_stm32f0xx.s
+   3              	  * @author    MCD Application Team
+   4              	  * @version   V1.0.0
+   5              	  * @date      23-March-2012
+   6              	  * @brief     STM32F0xx Devices vector table for RIDE7 toolchain.
+   7              	  *            This module performs:
+   8              	  *                - Set the initial SP
+   9              	  *                - Set the initial PC == Reset_Handler,
+  10              	  *                - Set the vector table entries with the exceptions ISR address
+  11              	  *                - Branches to main in the C library (which eventually
+  12              	  *                  calls main()).
+  13              	  *            After Reset the Cortex-M0 processor is in Thread mode,
+  14              	  *            priority is Privileged, and the Stack is set to Main.
+  15              	  *****************************************************************************
+  16              	  *
+  17              	  * @attention
+  18              	  *
+  19              	  * <h2><center>© COPYRIGHT 2012 STMicroelectronics</center></h2>
+  20              	  *
+  21              	  * Licensed under MCD-ST Liberty SW License Agreement V2, (the "License");
+  22              	  * You may not use this file except in compliance with the License.
+  23              	  * You may obtain a copy of the License at:
+  24              	  *
+  25              	  *        http://www.st.com/software_license_agreement_liberty_v2
+  26              	  *
+  27              	  * Unless required by applicable law or agreed to in writing, software
+  28              	  * distributed under the License is distributed on an "AS IS" BASIS,
+  29              	  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  30              	  * See the License for the specific language governing permissions and
+  31              	  * limitations under the License.
+  32              	  *
+  33              	  ******************************************************************************
+  34              	  * Modification by Hussam Al-Hertani:
+  35              	  * _estack symbol modified to _stack_start symbol to match my linker file
+  36              	  ******************************************************************************/
+  37              	 
+  38              	  .syntax unified
+  39              	  .cpu cortex-m0
+  40              	  .fpu softvfp
+  41              	  .thumb
+  42              	 
+  43              	.global g_pfnVectors
+  44              	.global Default_Handler
+  45              	 
+  46              	/* start address for the initialization values of the .data section.
+  47              	defined in linker script */
+  48 0000 00000000 	.word _sidata
+  49              	/* start address for the .data section. defined in linker script */ 
+  50 0004 00000000 	.word _sdata
+  51              	/* end address for the .data section. defined in linker script */
+  52 0008 00000000 	.word _edata
+  53              	/* start address for the .bss section. defined in linker script */
+  54 000c 00000000 	.word _sbss
+ARM GAS  /tmp/ccf4SJUC.s 			page 2
+
+
+  55              	/* end address for the .bss section. defined in linker script */
+  56 0010 00000000 	.word _ebss
+  57              	 
+  58              	.equ  BootRAM, 0xF108F85F
+  59              	/**
+  60              	 * @brief  This is the code that gets called when the processor first
+  61              	 *          starts execution following a reset event. Only the absolutely
+  62              	 *          necessary set is performed, after which the application
+  63              	 *          supplied main() routine is called.
+  64              	 * @param  None
+  65              	 * @retval : None
+  66              	*/
+  67              	 
+  68              	    .section .text.Reset_Handler
+  69              	  .weak Reset_Handler
+  70              	  .type Reset_Handler, %function
+  71              	Reset_Handler:
+  72              	 
+  73              	/* Copy the data segment initializers from flash to SRAM */ 
+  74 0000 0021     	  movs r1, #0
+  75 0002 03E0     	  b LoopCopyDataInit
+  76              	 
+  77              	CopyDataInit:
+  78 0004 0A4B     	  ldr r3, =_sidata
+  79 0006 5B58     	  ldr r3, [r3, r1]
+  80 0008 4350     	  str r3, [r0, r1]
+  81 000a 0431     	  adds r1, r1, #4
+  82              	 
+  83              	LoopCopyDataInit:
+  84 000c 0948     	  ldr r0, =_sdata
+  85 000e 0A4B     	  ldr r3, =_edata
+  86 0010 4218     	  adds r2, r0, r1
+  87 0012 9A42     	  cmp r2, r3
+  88 0014 F6D3     	  bcc CopyDataInit
+  89 0016 094A     	  ldr r2, =_sbss
+  90 0018 02E0     	  b LoopFillZerobss
+  91              	/* Zero fill the bss segment. */ 
+  92              	FillZerobss:
+  93 001a 0023     	  movs r3, #0
+  94 001c 1360     	  str r3, [r2]
+  95 001e 0432     	  adds r2, r2, #4
+  96              	 
+  97              	LoopFillZerobss:
+  98 0020 074B     	  ldr r3, = _ebss
+  99 0022 9A42     	  cmp r2, r3
+ 100 0024 F9D3     	  bcc FillZerobss
+ 101              	/* Call the clock system intitialization function.*/
+ 102 0026 FFF7FEFF 	  bl  SystemInit
+ 103              	/* Call the application's entry point.*/
+ 104 002a FFF7FEFF 	  bl main
+ 105 002e 7047     	  bx lr
+ 106              	.size Reset_Handler, .-Reset_Handler
+ 107              	 
+ 108              	/**
+ 109              	 * @brief  This is the code that gets called when the processor receives an
+ 110              	 *         unexpected interrupt.  This simply enters an infinite loop, preserving
+ 111              	 *         the system state for examination by a debugger.
+ARM GAS  /tmp/ccf4SJUC.s 			page 3
+
+
+ 112              	 *
+ 113              	 * @param  None
+ 114              	 * @retval None
+ 115              	*/
+ 116              	    .section .text.Default_Handler,"ax",%progbits
+ 117              	Default_Handler:
+ 118              	Infinite_Loop:
+ 119 0000 FEE7     	  b Infinite_Loop
+ 120              	  .size Default_Handler, .-Default_Handler
+ 121              	/*******************************************************************************
+ 122              	*
+ 123              	* The minimal vector table for a Cortex M0. Note that the proper constructs
+ 124              	* must be placed on this to ensure that it ends up at physical address
+ 125              	* 0x0000.0000.
+ 126              	*******************************************************************************/
+ 127              	  .section .isr_vector,"a",%progbits
+ 128              	  .type g_pfnVectors, %object
+ 129              	  .size g_pfnVectors, .-g_pfnVectors
+ 130              	 
+ 131              	g_pfnVectors:
+ 132 0000 00000000 	  .word _stack_start
+ 133 0004 00000000 	  .word Reset_Handler
+ 134 0008 00000000 	  .word NMI_Handler
+ 135 000c 00000000 	  .word HardFault_Handler
+ 136 0010 00000000 	  .word 0
+ 137 0014 00000000 	  .word 0
+ 138 0018 00000000 	  .word 0
+ 139 001c 00000000 	  .word 0
+ 140 0020 00000000 	  .word 0
+ 141 0024 00000000 	  .word 0
+ 142 0028 00000000 	  .word 0
+ 143 002c 00000000 	  .word SVC_Handler
+ 144 0030 00000000 	  .word 0
+ 145 0034 00000000 	  .word 0
+ 146 0038 00000000 	  .word PendSV_Handler
+ 147 003c 00000000 	  .word SysTick_Handler
+ 148 0040 00000000 	  .word WWDG_IRQHandler
+ 149 0044 00000000 	  .word PVD_IRQHandler
+ 150 0048 00000000 	  .word RTC_IRQHandler
+ 151 004c 00000000 	  .word FLASH_IRQHandler
+ 152 0050 00000000 	  .word RCC_IRQHandler
+ 153 0054 00000000 	  .word EXTI0_1_IRQHandler
+ 154 0058 00000000 	  .word EXTI2_3_IRQHandler
+ 155 005c 00000000 	  .word EXTI4_15_IRQHandler
+ 156 0060 00000000 	  .word TS_IRQHandler
+ 157 0064 00000000 	  .word DMA1_Channel1_IRQHandler
+ 158 0068 00000000 	  .word DMA1_Channel2_3_IRQHandler
+ 159 006c 00000000 	  .word DMA1_Channel4_5_IRQHandler
+ 160 0070 00000000 	  .word ADC1_COMP_IRQHandler
+ 161 0074 00000000 	  .word TIM1_BRK_UP_TRG_COM_IRQHandler
+ 162 0078 00000000 	  .word TIM1_CC_IRQHandler
+ 163 007c 00000000 	  .word TIM2_IRQHandler
+ 164 0080 00000000 	  .word TIM3_IRQHandler
+ 165 0084 00000000 	  .word TIM6_DAC_IRQHandler
+ 166 0088 00000000 	  .word 0
+ 167 008c 00000000 	  .word TIM14_IRQHandler
+ 168 0090 00000000 	  .word TIM15_IRQHandler
+ARM GAS  /tmp/ccf4SJUC.s 			page 4
+
+
+ 169 0094 00000000 	  .word TIM16_IRQHandler
+ 170 0098 00000000 	  .word TIM17_IRQHandler
+ 171 009c 00000000 	  .word I2C1_IRQHandler
+ 172 00a0 00000000 	  .word I2C2_IRQHandler
+ 173 00a4 00000000 	  .word SPI1_IRQHandler
+ 174 00a8 00000000 	  .word SPI2_IRQHandler
+ 175 00ac 00000000 	  .word USART1_IRQHandler
+ 176 00b0 00000000 	  .word USART2_IRQHandler
+ 177 00b4 00000000 	  .word 0
+ 178 00b8 00000000 	  .word CEC_IRQHandler
+ 179 00bc 00000000 	  .word 0
+ 180 00c0 5FF808F1 	  .word BootRAM          /* @0x108. This is for boot in RAM mode for
+ 181              	                            STM32F0xx devices. */
+ 182              	 
+ 183              	/*******************************************************************************
+ 184              	*
+ 185              	* Provide weak aliases for each Exception handler to the Default_Handler.
+ 186              	* As they are weak aliases, any function with the same name will override
+ 187              	* this definition.
+ 188              	*
+ 189              	*******************************************************************************/
+ 190              	 
+ 191              	  .weak NMI_Handler
+ 192              	  .thumb_set NMI_Handler,Default_Handler
+ 193              	 
+ 194              	  .weak HardFault_Handler
+ 195              	  .thumb_set HardFault_Handler,Default_Handler
+ 196              	 
+ 197              	  .weak SVC_Handler
+ 198              	  .thumb_set SVC_Handler,Default_Handler
+ 199              	 
+ 200              	  .weak PendSV_Handler
+ 201              	  .thumb_set PendSV_Handler,Default_Handler
+ 202              	 
+ 203              	  .weak SysTick_Handler
+ 204              	  .thumb_set SysTick_Handler,Default_Handler
+ 205              	 
+ 206              	  .weak WWDG_IRQHandler
+ 207              	  .thumb_set WWDG_IRQHandler,Default_Handler
+ 208              	 
+ 209              	  .weak PVD_IRQHandler
+ 210              	  .thumb_set PVD_IRQHandler,Default_Handler
+ 211              	 
+ 212              	  .weak RTC_IRQHandler
+ 213              	  .thumb_set RTC_IRQHandler,Default_Handler
+ 214              	 
+ 215              	  .weak FLASH_IRQHandler
+ 216              	  .thumb_set FLASH_IRQHandler,Default_Handler
+ 217              	 
+ 218              	  .weak RCC_IRQHandler
+ 219              	  .thumb_set RCC_IRQHandler,Default_Handler
+ 220              	 
+ 221              	  .weak EXTI0_1_IRQHandler
+ 222              	  .thumb_set EXTI0_1_IRQHandler,Default_Handler
+ 223              	 
+ 224              	  .weak EXTI2_3_IRQHandler
+ 225              	  .thumb_set EXTI2_3_IRQHandler,Default_Handler
+ARM GAS  /tmp/ccf4SJUC.s 			page 5
+
+
+ 226              	 
+ 227              	  .weak EXTI4_15_IRQHandler
+ 228              	  .thumb_set EXTI4_15_IRQHandler,Default_Handler
+ 229              	 
+ 230              	  .weak TS_IRQHandler
+ 231              	  .thumb_set TS_IRQHandler,Default_Handler
+ 232              	 
+ 233              	  .weak DMA1_Channel1_IRQHandler
+ 234              	  .thumb_set DMA1_Channel1_IRQHandler,Default_Handler
+ 235              	 
+ 236              	  .weak DMA1_Channel2_3_IRQHandler
+ 237              	  .thumb_set DMA1_Channel2_3_IRQHandler,Default_Handler
+ 238              	 
+ 239              	  .weak DMA1_Channel4_5_IRQHandler
+ 240              	  .thumb_set DMA1_Channel4_5_IRQHandler,Default_Handler
+ 241              	 
+ 242              	  .weak ADC1_COMP_IRQHandler
+ 243              	  .thumb_set ADC1_COMP_IRQHandler,Default_Handler
+ 244              	 
+ 245              	  .weak TIM1_BRK_UP_TRG_COM_IRQHandler
+ 246              	  .thumb_set TIM1_BRK_UP_TRG_COM_IRQHandler,Default_Handler
+ 247              	 
+ 248              	  .weak TIM1_CC_IRQHandler
+ 249              	  .thumb_set TIM1_CC_IRQHandler,Default_Handler
+ 250              	 
+ 251              	  .weak TIM2_IRQHandler
+ 252              	  .thumb_set TIM2_IRQHandler,Default_Handler
+ 253              	 
+ 254              	  .weak TIM3_IRQHandler
+ 255              	  .thumb_set TIM3_IRQHandler,Default_Handler
+ 256              	 
+ 257              	  .weak TIM6_DAC_IRQHandler
+ 258              	  .thumb_set TIM6_DAC_IRQHandler,Default_Handler
+ 259              	 
+ 260              	  .weak TIM14_IRQHandler
+ 261              	  .thumb_set TIM14_IRQHandler,Default_Handler
+ 262              	 
+ 263              	  .weak TIM15_IRQHandler
+ 264              	  .thumb_set TIM15_IRQHandler,Default_Handler
+ 265              	 
+ 266              	  .weak TIM16_IRQHandler
+ 267              	  .thumb_set TIM16_IRQHandler,Default_Handler
+ 268              	 
+ 269              	  .weak TIM17_IRQHandler
+ 270              	  .thumb_set TIM17_IRQHandler,Default_Handler
+ 271              	 
+ 272              	  .weak I2C1_IRQHandler
+ 273              	  .thumb_set I2C1_IRQHandler,Default_Handler
+ 274              	 
+ 275              	  .weak I2C2_IRQHandler
+ 276              	  .thumb_set I2C2_IRQHandler,Default_Handler
+ 277              	 
+ 278              	  .weak SPI1_IRQHandler
+ 279              	  .thumb_set SPI1_IRQHandler,Default_Handler
+ 280              	 
+ 281              	  .weak SPI2_IRQHandler
+ 282              	  .thumb_set SPI2_IRQHandler,Default_Handler
+ARM GAS  /tmp/ccf4SJUC.s 			page 6
+
+
+ 283              	 
+ 284              	  .weak USART1_IRQHandler
+ 285              	  .thumb_set USART1_IRQHandler,Default_Handler
+ 286              	 
+ 287              	  .weak USART2_IRQHandler
+ 288              	  .thumb_set USART2_IRQHandler,Default_Handler
+ 289              	 
+ 290              	  .weak CEC_IRQHandler
+ 291              	  .thumb_set CEC_IRQHandler,Default_Handler  
+ARM GAS  /tmp/ccf4SJUC.s 			page 7
+
+
+DEFINED SYMBOLS
+startup/startup_stm32f0xx.s:131    .isr_vector:0000000000000000 g_pfnVectors
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 Default_Handler
+startup/startup_stm32f0xx.s:58     *ABS*:00000000f108f85f BootRAM
+startup/startup_stm32f0xx.s:71     .text.Reset_Handler:0000000000000000 Reset_Handler
+startup/startup_stm32f0xx.s:74     .text.Reset_Handler:0000000000000000 $t
+startup/startup_stm32f0xx.s:83     .text.Reset_Handler:000000000000000c LoopCopyDataInit
+startup/startup_stm32f0xx.s:77     .text.Reset_Handler:0000000000000004 CopyDataInit
+startup/startup_stm32f0xx.s:97     .text.Reset_Handler:0000000000000020 LoopFillZerobss
+startup/startup_stm32f0xx.s:92     .text.Reset_Handler:000000000000001a FillZerobss
+startup/startup_stm32f0xx.s:118    .text.Default_Handler:0000000000000000 Infinite_Loop
+startup/startup_stm32f0xx.s:119    .text.Default_Handler:0000000000000000 $t
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 NMI_Handler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 HardFault_Handler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 SVC_Handler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 PendSV_Handler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 SysTick_Handler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 WWDG_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 PVD_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 RTC_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 FLASH_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 RCC_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 EXTI0_1_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 EXTI2_3_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 EXTI4_15_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 TS_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 DMA1_Channel1_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 DMA1_Channel2_3_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 DMA1_Channel4_5_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 ADC1_COMP_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 TIM1_BRK_UP_TRG_COM_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 TIM1_CC_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 TIM2_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 TIM3_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 TIM6_DAC_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 TIM14_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 TIM15_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 TIM16_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 TIM17_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 I2C1_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 I2C2_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 SPI1_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 SPI2_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 USART1_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 USART2_IRQHandler
+startup/startup_stm32f0xx.s:117    .text.Default_Handler:0000000000000000 CEC_IRQHandler
+startup/startup_stm32f0xx.s:116    .text.Reset_Handler:0000000000000030 $d
+                   .debug_aranges:000000000000000c $d
+
+UNDEFINED SYMBOLS
+_sidata
+_sdata
+_edata
+_sbss
+_ebss
+SystemInit
+main
+ARM GAS  /tmp/ccf4SJUC.s 			page 8
+
+
+_stack_start

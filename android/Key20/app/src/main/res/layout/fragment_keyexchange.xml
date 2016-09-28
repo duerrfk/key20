@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.frank_durr.key20.KeyExchangeFragment"
+    android:id="@+id/keyexchange_fragment"
+    android:padding="5dp">
+
+    <ProgressBar android:id="@+id/progressbar_keyexchange"
+        style="@android:style/Widget.ProgressBar.Small"
+        android:indeterminateOnly="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView android:id="@+id/textview_keyex_instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progressbar_keyexchange"
+        android:layout_alignParentLeft="true" />
+
+    <TextView android:id="@+id/label_keyno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_keynumber"
+        android:layout_below="@+id/textview_keyex_instructions"
+        android:layout_alignParentLeft="true" />
+
+    <Spinner android:id="@+id/spinner_keyno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label_keyno"
+        android:layout_alignParentLeft="true" />
+
+    <TextView android:id="@+id/label_checksum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_checksum_label"
+        android:layout_below="@+id/spinner_keyno"
+        android:layout_alignParentLeft="true" />
+
+    <TextView android:id="@+id/textview_checksum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Foo"
+        android:layout_below="@+id/label_checksum"
+        android:layout_alignParentLeft="true"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button android:id="@+id/button_keyex_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_confirm_key_label"
+        android:layout_below="@+id/textview_checksum"
+        android:layout_alignParentLeft="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_keyex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:scaleType="center"
+        android:elevation="8dp"
+        android:src="@drawable/ic_vpn_key_white_24dp"
+        android:clickable="true" />
+
+</RelativeLayout>

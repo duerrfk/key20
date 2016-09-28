@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.2.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="BLUETOOTH40-NR51822">
+<pad name="PO.18" x="9.1" y="8" drill="0.8"/>
+<pad name="PO.20" x="11.1" y="8" drill="0.8"/>
+<pad name="PO.17" x="9.1" y="6" drill="0.8"/>
+<pad name="PO.19" x="11.1" y="6" drill="0.8"/>
+<pad name="SWDIO" x="9.1" y="4" drill="0.8"/>
+<pad name="SWDCLK" x="11.1" y="4" drill="0.8"/>
+<pad name="PO.15" x="9.1" y="2" drill="0.8"/>
+<pad name="PO.16" x="11.1" y="2" drill="0.8"/>
+<pad name="PO.13" x="9.1" y="0" drill="0.8"/>
+<pad name="PO.14" x="11.1" y="0" drill="0.8"/>
+<pad name="PO.11" x="9.1" y="-2" drill="0.8"/>
+<pad name="PO.12" x="11.1" y="-2" drill="0.8"/>
+<pad name="PO.09" x="9.1" y="-4" drill="0.8"/>
+<pad name="PO.10" x="11.1" y="-4" drill="0.8"/>
+<pad name="PO.07" x="9.1" y="-6" drill="0.8"/>
+<pad name="PO.08" x="11.1" y="-6" drill="0.8"/>
+<pad name="PO.05" x="9.1" y="-8" drill="0.8"/>
+<pad name="PO.06" x="11.1" y="-8" drill="0.8"/>
+<pad name="PO.21" x="-9.1" y="8" drill="0.8"/>
+<pad name="GND" x="-11.1" y="8" drill="0.8"/>
+<pad name="PO.23" x="-9.1" y="6" drill="0.8"/>
+<pad name="PO.22" x="-11.1" y="6" drill="0.8"/>
+<pad name="PO.25" x="-9.1" y="4" drill="0.8"/>
+<pad name="PO.24" x="-11.1" y="4" drill="0.8"/>
+<pad name="PO.27" x="-9.1" y="2" drill="0.8"/>
+<pad name="PO.26" x="-11.1" y="2" drill="0.8"/>
+<pad name="PO.29" x="-9.1" y="0" drill="0.8"/>
+<pad name="PO.28" x="-11.1" y="0" drill="0.8"/>
+<pad name="GND2" x="-9.1" y="-2" drill="0.8"/>
+<pad name="VDD" x="-11.1" y="-2" drill="0.8"/>
+<pad name="PO.00" x="-9.1" y="-4" drill="0.8"/>
+<pad name="PO.30" x="-11.1" y="-4" drill="0.8"/>
+<pad name="PO.02" x="-9.1" y="-6" drill="0.8"/>
+<pad name="PO.01" x="-11.1" y="-6" drill="0.8"/>
+<pad name="PO.04" x="-9.1" y="-8" drill="0.8"/>
+<pad name="PO.03" x="-11.1" y="-8" drill="0.8"/>
+<text x="-4" y="5" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-12.1" y1="-9" x2="12.1" y2="-9" width="0.127" layer="21"/>
+<wire x1="12.1" y1="-9" x2="12.1" y2="23.2" width="0.127" layer="21"/>
+<wire x1="12.1" y1="23.2" x2="-12.1" y2="23.2" width="0.127" layer="21"/>
+<wire x1="-12.1" y1="23.2" x2="-12.1" y2="-9" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BLUETOOTH40-NRF51822">
+<pin name="PO.18" x="17.78" y="20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="PO.20" x="17.78" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="PO.17" x="17.78" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="PO.19" x="17.78" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="SWDIO" x="17.78" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="SWDCLK" x="17.78" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="PO.15" x="17.78" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="PO.16" x="17.78" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="PO.13" x="17.78" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="PO.14" x="17.78" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="PO.11" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="PO.12" x="17.78" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="PO.09" x="17.78" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="PO.10" x="17.78" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="PO.07" x="17.78" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="PO.08" x="17.78" y="-17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="PO.05" x="17.78" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="PO.06" x="17.78" y="-22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="-17.78" y="20.32" visible="pin" length="middle" direction="pwr"/>
+<pin name="PO.21" x="-17.78" y="17.78" visible="pin" length="middle"/>
+<pin name="PO.22" x="-17.78" y="15.24" visible="pin" length="middle"/>
+<pin name="PO.23" x="-17.78" y="12.7" visible="pin" length="middle"/>
+<pin name="PO.24" x="-17.78" y="10.16" visible="pin" length="middle"/>
+<pin name="PO.25" x="-17.78" y="7.62" visible="pin" length="middle"/>
+<pin name="PO.26" x="-17.78" y="5.08" visible="pin" length="middle"/>
+<pin name="PO.27" x="-17.78" y="2.54" visible="pin" length="middle"/>
+<pin name="PO.28" x="-17.78" y="0" visible="pin" length="middle"/>
+<pin name="PO.29" x="-17.78" y="-2.54" visible="pin" length="middle"/>
+<pin name="VDD" x="-17.78" y="-5.08" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND2" x="-17.78" y="-7.62" visible="pin" length="middle" direction="pwr"/>
+<pin name="PO.30" x="-17.78" y="-10.16" visible="pin" length="middle"/>
+<pin name="PO.00" x="-17.78" y="-12.7" visible="pin" length="middle"/>
+<pin name="PO.01" x="-17.78" y="-15.24" visible="pin" length="middle"/>
+<pin name="PO.02" x="-17.78" y="-17.78" visible="pin" length="middle"/>
+<pin name="PO.03" x="-17.78" y="-20.32" visible="pin" length="middle"/>
+<pin name="PO.04" x="-17.78" y="-22.86" visible="pin" length="middle"/>
+<wire x1="-12.7" y1="22.86" x2="12.7" y2="22.86" width="0.254" layer="94"/>
+<wire x1="12.7" y1="22.86" x2="12.7" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-25.4" x2="-12.7" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-25.4" x2="-12.7" y2="22.86" width="0.254" layer="94"/>
+<text x="-12.7" y="23.876" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BLUETOOTH40-NRF51822" prefix="G">
+<gates>
+<gate name="G$1" symbol="BLUETOOTH40-NRF51822" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BLUETOOTH40-NR51822">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND2" pad="GND2"/>
+<connect gate="G$1" pin="PO.00" pad="PO.00"/>
+<connect gate="G$1" pin="PO.01" pad="PO.01"/>
+<connect gate="G$1" pin="PO.02" pad="PO.02"/>
+<connect gate="G$1" pin="PO.03" pad="PO.03"/>
+<connect gate="G$1" pin="PO.04" pad="PO.04"/>
+<connect gate="G$1" pin="PO.05" pad="PO.05"/>
+<connect gate="G$1" pin="PO.06" pad="PO.06"/>
+<connect gate="G$1" pin="PO.07" pad="PO.07"/>
+<connect gate="G$1" pin="PO.08" pad="PO.08"/>
+<connect gate="G$1" pin="PO.09" pad="PO.09"/>
+<connect gate="G$1" pin="PO.10" pad="PO.10"/>
+<connect gate="G$1" pin="PO.11" pad="PO.11"/>
+<connect gate="G$1" pin="PO.12" pad="PO.12"/>
+<connect gate="G$1" pin="PO.13" pad="PO.13"/>
+<connect gate="G$1" pin="PO.14" pad="PO.14"/>
+<connect gate="G$1" pin="PO.15" pad="PO.15"/>
+<connect gate="G$1" pin="PO.16" pad="PO.16"/>
+<connect gate="G$1" pin="PO.17" pad="PO.17"/>
+<connect gate="G$1" pin="PO.18" pad="PO.18"/>
+<connect gate="G$1" pin="PO.19" pad="PO.19"/>
+<connect gate="G$1" pin="PO.20" pad="PO.20"/>
+<connect gate="G$1" pin="PO.21" pad="PO.21"/>
+<connect gate="G$1" pin="PO.22" pad="PO.22"/>
+<connect gate="G$1" pin="PO.23" pad="PO.23"/>
+<connect gate="G$1" pin="PO.24" pad="PO.24"/>
+<connect gate="G$1" pin="PO.25" pad="PO.25"/>
+<connect gate="G$1" pin="PO.26" pad="PO.26"/>
+<connect gate="G$1" pin="PO.27" pad="PO.27"/>
+<connect gate="G$1" pin="PO.28" pad="PO.28"/>
+<connect gate="G$1" pin="PO.29" pad="PO.29"/>
+<connect gate="G$1" pin="PO.30" pad="PO.30"/>
+<connect gate="G$1" pin="SWDCLK" pad="SWDCLK"/>
+<connect gate="G$1" pin="SWDIO" pad="SWDIO"/>
+<connect gate="G$1" pin="VDD" pad="VDD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

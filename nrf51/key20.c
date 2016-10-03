@@ -36,7 +36,7 @@
 // * Pin 18: Button 2 
 // * Pin 21: LED 1
 // * Pin 22: LED 2
-/*
+#ifdef TARGET_BOARD_NRF51DK
 #define PIN_BUTTON_RED 17
 #define PIN_BUTTON_GREEN 18
 #define PIN_LOCK 22
@@ -47,12 +47,13 @@
 #define PIN_LCD_DB5 13
 #define PIN_LCD_DB6 14
 #define PIN_LCD_DB7 15
-*/
-
+#else
 // Pinout of Key20 lock controller board:
 #define PIN_BUTTON_RED 2
 #define PIN_BUTTON_GREEN 4
 #define PIN_LOCK 3
+// Actually, the Key20 board has no LED.
+// Pin 21 is not connected on this board, so it will also do no harm.
 #define PIN_LED 21
 #define PIN_LCD_RS 16
 #define PIN_LCD_E 14
@@ -60,6 +61,7 @@
 #define PIN_LCD_DB5 10
 #define PIN_LCD_DB6 8
 #define PIN_LCD_DB7 6
+#endif
 
 // Maximum number of pending application events. 
 // In order to decouple event processing from event generation happening
@@ -567,7 +569,7 @@ static void add_characteristic_nonce(uint16_t service_handle)
      char_meta_data.p_char_user_desc = NULL;
      char_meta_data.p_char_pf = &char_presentation_format;
      char_meta_data.p_user_desc_md = NULL;
-     // CCCD (Client Characteristic Configuration Descriptor) only needs to be 
+     // CCCD (Client Characteristic Configuration Descriptor) needs to be 
      // set for characteristics allowing for notifications and indications.
      char_meta_data.p_cccd_md = &cccd_meta_data;
      char_meta_data.p_sccd_md = NULL;
@@ -1280,7 +1282,7 @@ static void indicate_nonce()
      ble_gatts_hvx_params_t params;
      uint16_t len = sizeof(nonce);
      
-     // Send nonce value as notification.
+     // Send nonce value as indication.
      memset(&params, 0, sizeof(params));
      params.type = BLE_GATT_HVX_INDICATION;
      params.handle = char_handle_nonce.value_handle;
@@ -1297,12 +1299,12 @@ static void indicate_public_key(unsigned int part)
      uint8_t data[MAX_LENGTH_CFG_OUT_CHAR];
      
      if (part == 0) {
-	  // Send first 18 bytes of public key as a notification.
+	  // Send first 18 bytes of public key as indication.
 	  data[0] = keyexchange_key_no;
 	  data[1] = 0; // 0 = part 1
 	  memcpy(&data[2], &keyexchange_server_public_key[0], 16);
      } else {
-	  // Send second 18 bytes of public key as a notification.
+	  // Send second 18 bytes of public key as indication.
 	  data[1] = 1; // 1 = part 2
 	  memcpy(&data[2], &keyexchange_server_public_key[16], 16);
      }

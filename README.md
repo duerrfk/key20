@@ -107,14 +107,17 @@ No heavy-weight IDE is required to build the code. However, still a few tools ar
 * [nRF51 SDK, version 10.0.0](http://developer.nordicsemi.com/nRF5_SDK/)
 * [nRF5x Command Line Tools, version 8.2.0](https://www.nordicsemi.com/eng/Products/nRF51-DK)
 * [Softdevice S100, version 8.0.0](https://www.nordicsemi.com/eng/Products/nRF51-DK)
-* Flashing and debugging hardware, e.g., [Segger J-Link EDU](https://www.segger.com/j-link-edu.html) (about 50 US$, only for non-commerical use!)
+* Flashing and debugging hardware, e.g., [Segger J-Link EDU](https://www.segger.com/j-link-edu.html) (about 50 US$, only for non-commerical use!). The nRF51 Developers Kit (DK) comes with an on-board Segger programmer, but for flashing the Key20 board, you need an external programmer like the J-Link EDU. 
 * [Tool chain (compiler, linker, etc.) for ARM](https://launchpad.net/gcc-arm-embedded/+download)
 
 ### Building and Flashing the Software
 
-After setting the right paths to the nRF51 SDK directory (variable NRF51_SDK) and compiler tools (variable CROSS) in the Makefile, you should be able to compile for nRF51822. 
+First, adapt the Makefile by defining the following variables:
 
-We also provide a linker file for nRF51422 as used by the nRF51 Development Kit. To use this file, modify the value of the LINKER_SCRIPT variable to use the AC chip variant linker file instead of the AA variant.
+* `NRF51_SDK`: path to the nRF51 SDK directory
+* `CROSS`: path to the compiler tools
+* `CFLAGS`: add `-DTARGET_BOARD_NRF51DK` if you compile for the nRF51 Development Kit (DK); if this definition is not set, you compile for the Key20 board.
+* `LINKER_SCRIPT`: set to `nrf51422_ac_s110.ld` for the nRF51 DK (nRF51422, variant AC) or to `nrf51822_aa_s110.ld` for the Key20 board (nRF51822, variant AA).
 
 Compiling the code:
 

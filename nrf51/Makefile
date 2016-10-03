@@ -82,6 +82,9 @@ CFLAGS += -fno-builtin --short-enums
 CFLAGS += $(OPTIMIZATION) $(INCLUDES)
 CFLAGS += -DNRF51
 CFLAGS += -DBLE_STACK_SUPPORT_REQD
+# Set the following definition to compile for the nRF51 DK.
+# Otherwise, we compile for the Key20 board.
+CFLAGS += -DTARGET_BOARD_NRF51DK
 
 ASMFLAGS += -x assembler-with-cpp -mcpu=cortex-m0 -mthumb -mabi=aapcs -mfloat-abi=soft
 

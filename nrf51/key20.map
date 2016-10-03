@@ -988,9 +988,9 @@ Discarded input sections
  .bss           0x00000000        0x0 ../hd44780nrf51/hd44780nrf51.o
  .text.hd44780_clear_line
                 0x00000000       0x6c ../hd44780nrf51/hd44780nrf51.o
- .data          0x00000000        0x0 gcc_startup_nrf51_aa.o
- .bss           0x00000000        0x0 gcc_startup_nrf51_aa.o
- .ARM.extab     0x00000000        0x0 gcc_startup_nrf51_aa.o
+ .data          0x00000000        0x0 gcc_startup_nrf51.o
+ .bss           0x00000000        0x0 gcc_startup_nrf51.o
+ .ARM.extab     0x00000000        0x0 gcc_startup_nrf51.o
  .data          0x00000000        0x0 ../curve25519-cortexm0/cortex_m0_mpy121666.o
  .bss           0x00000000        0x0 ../curve25519-cortexm0/cortex_m0_mpy121666.o
  .data          0x00000000        0x0 ../curve25519-cortexm0/cortex_m0_reduce25519.o
@@ -1097,7 +1097,7 @@ LOAD ../avrnacl/crypto_verify/verify.o
 LOAD ../avrnacl/shared/consts.o
 LOAD ../avrnacl/shared/bigint.o
 LOAD ../hd44780nrf51/hd44780nrf51.o
-LOAD gcc_startup_nrf51_aa.o
+LOAD gcc_startup_nrf51.o
 LOAD ../curve25519-cortexm0/cortex_m0_mpy121666.o
 LOAD ../curve25519-cortexm0/cortex_m0_reduce25519.o
 LOAD ../curve25519-cortexm0/mul.o
@@ -1125,7 +1125,7 @@ END GROUP
 
 .text           0x00018000     0xc4ac
  *(.Vectors)
- .Vectors       0x00018000       0xc0 gcc_startup_nrf51_aa.o
+ .Vectors       0x00018000       0xc0 gcc_startup_nrf51.o
                 0x00018000                __Vectors
  *(.text*)
  .text          0x000180c0       0xb4 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/armv6-m/crtbegin.o
@@ -1802,7 +1802,7 @@ END GROUP
  .text.hd44780_clear_display
                 0x00022348       0x18 ../hd44780nrf51/hd44780nrf51.o
                 0x00022348                hd44780_clear_display
- .text          0x00022360       0x54 gcc_startup_nrf51_aa.o
+ .text          0x00022360       0x54 gcc_startup_nrf51.o
                 0x00022360                Reset_Handler
                 0x000223a8                NMI_Handler
                 0x000223aa                HardFault_Handler
@@ -1972,7 +1972,7 @@ END GROUP
 .ARM.exidx      0x000244ac        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
  .ARM.exidx     0x000244ac        0x8 /usr/local/gcc-arm-none-eabi-5_2-2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv6-m/crt0.o
- .ARM.exidx     0x000244b4        0x0 gcc_startup_nrf51_aa.o
+ .ARM.exidx     0x000244b4        0x0 gcc_startup_nrf51.o
                                   0x8 (size before relaxing)
                 0x000244b4                . = ALIGN (0x4)
                 0x000244b4                __exidx_end = .
@@ -2168,13 +2168,13 @@ END GROUP
                 0x200026f8                __end__ = .
                 0x200026f8                end = __end__
  *(.heap*)
- .heap          0x200026f8      0x200 gcc_startup_nrf51_aa.o
+ .heap          0x200026f8      0x200 gcc_startup_nrf51.o
                 0x200026f8                __HeapBase
                 0x200028f8                __HeapLimit = .
 
 .stack_dummy    0x200026f8      0xe00
  *(.stack*)
- .stack         0x200026f8      0xe00 gcc_startup_nrf51_aa.o
+ .stack         0x200026f8      0xe00 gcc_startup_nrf51.o
                 0x20004000                __StackTop = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20003200                __StackLimit = (__StackTop - SIZEOF (.stack_dummy))
                 0x20004000                PROVIDE (__stack, __StackTop)
@@ -2240,7 +2240,7 @@ OUTPUT(key20.out elf32-littlearm)
  .ARM.attributes
                 0x000004e4       0x31 ../hd44780nrf51/hd44780nrf51.o
  .ARM.attributes
-                0x00000515       0x1b gcc_startup_nrf51_aa.o
+                0x00000515       0x1b gcc_startup_nrf51.o
  .ARM.attributes
                 0x00000530       0x31 ../curve25519-cortexm0/cortex_m0_mpy121666.o
  .ARM.attributes

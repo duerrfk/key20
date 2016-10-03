@@ -27,7 +27,7 @@ SRC += $(AVRNACL)/shared/bigint.c
 SRC += $(HD44780NRF51)/hd44780nrf51.c
 
 #ASM_SRC = $(NRF51_SDK)/components/toolchain/gcc/gcc_startup_nrf51.s
-ASM_SRC = gcc_startup_nrf51_aa.s
+ASM_SRC = gcc_startup_nrf51.s
 ASM_SRC += $(CURVE25519)/cortex_m0_mpy121666.s
 ASM_SRC += $(CURVE25519)/cortex_m0_reduce25519.s
 ASM_SRC += $(CURVE25519)/mul.s
@@ -67,6 +67,8 @@ CC = $(CROSS)gcc
 LD = $(CROSS)ld
 OBJCOPY = $(CROSS)objcopy
 
+# For nRF51 DK, select nrf51422_ac_s100.ld.
+# For productive version using nRF51822, select nrf51822_aa_s110.ld.
 #LINKER_SCRIPT = nrf51422_ac_s110.ld
 LINKER_SCRIPT = nrf51822_aa_s110.ld
 

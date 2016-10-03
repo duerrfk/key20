@@ -71,6 +71,8 @@ The door lock controller needs to be placed in Bluetooth radio range to the door
 
 ## Door Lock Controller Hardware
 
+The door lock controller hardware is designed for operating AC (alternating current) electric door locks, which typically run from 6-12 VAC. 
+
 The hardware design (schematics and board layout for Eagle) for the door lock controller device can be found in folder `pcb/key20-ble`. 
 
 The following images show the hardware and schematic. The hardware basically concists of one circuit board (PCB). We deliberately used a simple single-sided through-hole design to help makers producing their own boards. An LCD, a power switch, and two push buttons for user interaction are connected to the main PCB. An ob-board voltage regulator provides 3.3 V fed by an external DC power supply (anything between 4 V and 30 V will work). The circuit draws less than 50 mA when the lock is operated, thus, you can use a cheap 5.0 V USB power supply. With a little modification, we could also switch off the LCD when not needed, and the device could run from 4 AA-size batteries most probably for years.
@@ -106,7 +108,7 @@ No heavy-weight IDE is required to build the code. However, still a few tools ar
 
 * [nRF51 SDK, version 10.0.0](http://developer.nordicsemi.com/nRF5_SDK/)
 * [nRF5x Command Line Tools, version 8.2.0](https://www.nordicsemi.com/eng/Products/nRF51-DK)
-* [Softdevice S100, version 8.0.0](https://www.nordicsemi.com/eng/Products/nRF51-DK)
+* [Softdevice S110, version 8.0.0](https://www.nordicsemi.com/eng/Products/nRF51-DK)
 * Flashing and debugging hardware, e.g., [Segger J-Link EDU](https://www.segger.com/j-link-edu.html) (about 50 US$, only for non-commerical use!). The nRF51 Developers Kit (DK) comes with an on-board Segger programmer, but for flashing the Key20 board, you need an external programmer like the J-Link EDU. 
 * [Tool chain (compiler, linker, etc.) for ARM](https://launchpad.net/gcc-arm-embedded/+download)
 

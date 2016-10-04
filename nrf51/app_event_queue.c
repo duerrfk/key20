@@ -17,6 +17,7 @@
  */
 
 #include "app_event_queue.h"
+#include <app_util_platform.h>
 
 void app_event_queue_init(struct app_event_queue *queue)
 {
@@ -28,25 +29,43 @@ void app_event_queue_init(struct app_event_queue *queue)
 
 int app_event_queue_add(struct app_event_queue *queue, struct app_event event)
 {
-     if (queue->free == 0)
-	  return -1;
+     int retval;
 
-     queue->events[queue->head] = event;
-     queue->head = (queue->head+1)%queue->size;
-     queue->free--;
+     // Add and get functions might be accessed from interrupt context and 
+     // application context concurrently -> need to protect critical sections
+     // by avoiding context switches (interrupts) in critical section.
+     CRITICAL_REGION_ENTER();
+     if (queue->free == 0) {
+	  retval = -1;
+     } else { 
+	  queue->events[queue->head] = event;
+	  queue->head = (queue->head+1)%queue->size;
+	  queue->free--;
+	  retval = 0;
+     }
+     CRITICAL_REGION_EXIT();
 
-     return 0;
+     return retval;
 }
 
 int app_event_queue_get(struct app_event_queue *queue, struct app_event *event)
 {
-     if (queue->free == queue->size)
-	  return -1;
+     int retval;
+     
+     // Add and get functions might be accessed from interrupt context and 
+     // application context concurrently -> need to protect critical sections
+     // by avoiding context switches (interrupts) in critical section.
+     CRITICAL_REGION_ENTER();
+     if (queue->free == queue->size) {
+	  retval = -1;
+     } else {
+	  *event = queue->events[queue->tail];
+	  queue->tail = (queue->tail+1)%queue->size;
+	  queue->free++;
+	  retval = 0;
+     }
+     CRITICAL_REGION_EXIT();
 
-     *event = queue->events[queue->tail];
-     queue->tail = (queue->tail+1)%queue->size;
-     queue->free++;
-
-     return 0;
+     return retval;
 }
 

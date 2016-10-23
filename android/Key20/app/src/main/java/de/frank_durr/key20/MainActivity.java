@@ -360,6 +360,11 @@ public class MainActivity extends android.support.v7.app.AppCompatActivity {
                                 UnlockFragment.MessageHandler.TASK_FINISHED);
                         activity.fragmentUnlock.msgHandler.sendMessage(outMsg);
                     } else if (event == BT_DEVICE_SELECTED) {
+                        // If a new Bluetooth adapter object was created since we obtained a
+                        // reference to the Bluetooth device, we need to obtain a new
+                        // device reference with the *current* Bluetooth adapter.
+                        activity.bluetoothDevice = activity.bluetoothAdapter.getRemoteDevice(
+                                activity.bluetoothDevice.getAddress());
                         activity.bluetoothDevice.connectGatt(activity, false,
                                 activity.gattHandler);
                         activity.appState = ApplicationStates.unlock_waitGattConnection;
@@ -369,6 +374,11 @@ public class MainActivity extends android.support.v7.app.AppCompatActivity {
                     if (event == FAILURE) {
                         finishKeyExchangeTask(activity, R.string.err_bluetooth_nodevice);
                     } else if (event == BT_DEVICE_SELECTED) {
+                        // If a new Bluetooth adapter object was created since we obtained a
+                        // reference to the Bluetooth device, we need to obtain a new
+                        // device reference with the *current* Bluetooth adapter.
+                        activity.bluetoothDevice = activity.bluetoothAdapter.getRemoteDevice(
+                                    activity.bluetoothDevice.getAddress());
                         activity.bluetoothDevice.connectGatt(activity, false,
                                 activity.gattHandler);
                         activity.appState = ApplicationStates.keyex_waitGattConnection;

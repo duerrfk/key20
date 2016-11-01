@@ -1,11 +1,26 @@
 # What is Key 2.0?
 
-Key 2.0 (or Key20 for short) is a Bluetooth IoT Door Lock. It turns a conventional electric door lock into a smart door lock that can be opened using a smartphone without the need for a physical key. Thus, Key20 is the modern version of a physical key, or, as the name suggests, the key version 2.0 for the Internet of Things (IoT) era.
+Key 2.0 (or Key20 for short) is a Bluetooth IoT Door Lock controller. It turns a conventional electric door lock into a smart door lock that can be opened using a smartphone without the need for a physical key. Thus, Key20 is the modern version of a physical key, or, as the name suggests, the key version 2.0 for the Internet of Things (IoT) era.
 
 Key20 consists of two parts:
 
-1. Door lock controller device, which is physically connected to the electric door lock and wirelessly via BLE to the mobile app.
-2. Mobile app implementing the user interface to unlock the door and communicating with the door lock controller through BLE.
+1. Key20 door lock controller device, which is physically connected to the electric door lock and wirelessly via BLE to the mobile app.
+2. Key20 mobile app implementing the user interface to unlock the door and communicating with the door lock controller through BLE.
+
+```
+         [ Mobile Phone w/ ]
+         [    Key20 App    ]
+               |
+               | Bluetooth Low Energy (BLE) Connection
+               |
+ |---[ Key20 Door Lock Controller ]---[ Electric Door Lock ]---|
+ |   [           Device           ]                            |
+ |                                                             |
+ |                                                             |
+ |                                                             |
+ |----------------------(Voltage Source)-----------------------|
+                        (    12 VAC    )
+```
 
 The following image shows the Key20 door lock controller device and the Key20 app running on a smartphone.
 

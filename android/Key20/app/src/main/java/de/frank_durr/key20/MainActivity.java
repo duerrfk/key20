@@ -1005,7 +1005,7 @@ public class MainActivity extends android.support.v7.app.AppCompatActivity {
         gattHandler = new GattCallbackHandler();
 
         if (preferences.contains(PREF_KEYNO) && preferences.contains(PREF_KEY)) {
-            preferences.getInt(PREF_KEYNO, 0);
+            keyno = preferences.getInt(PREF_KEYNO, 0);
             String keybase64 = preferences.getString(PREF_KEY, "foo");
             secret = Base64.decode(keybase64, Base64.DEFAULT);
         } else {

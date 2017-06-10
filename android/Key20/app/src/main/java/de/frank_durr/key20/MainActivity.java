@@ -535,7 +535,7 @@ public class MainActivity extends android.support.v7.app.AppCompatActivity {
                         finishKeyExchangeTask(activity, R.string.err_bluetooth_notification);
                     } else if (event == GATT_NOTIFICATION_RCVD_CFGOUT) {
                         byte[] value = (byte[]) message.obj;
-                        if (value[0] != activity.keyexKeyNo || value[1] != 1) {
+                        if (value[1] != 1) {
                             // Server sent wrong key part or key number.
                             activity.gattDone();
                             finishKeyExchangeTask(activity, R.string.err_bluetooth_notification);

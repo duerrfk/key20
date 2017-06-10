@@ -1305,6 +1305,7 @@ static void indicate_public_key(unsigned int part)
 	  memcpy(&data[2], &keyexchange_server_public_key[0], 16);
      } else {
 	  // Send second 18 bytes of public key as indication.
+	  data[0] = keyexchange_key_no;
 	  data[1] = 1; // 1 = part 2
 	  memcpy(&data[2], &keyexchange_server_public_key[16], 16);
      }
